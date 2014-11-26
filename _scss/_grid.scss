@@ -1,0 +1,116 @@
+
+//
+// GRID
+//
+
+// Settings
+$grid-margins: 1.4%;
+$grid-sizes: (
+	// Grid width options
+	// Add/remove grid's as needed
+	// $name: $width
+	// $name - {string} class suffix
+	// $width - {string} width of the grid
+	fourth: 25%,
+	third: 33.33333333333%,
+	half: 50%,
+	two-thirds: 66.666666666667%,
+	three-fourths: 75%,
+	full: 100%
+);
+$grid-breakpoints: (
+	// Breakpoints at which to activate grid
+	// Add/remove breakpoints as needed
+	// ($breakpoint, $prefix-class, $include-offsets)
+	// $breakpoint - {string|variable} the breakpoint
+	// $prefix-class - {string|optional} class to be used with `.row` to activate grid
+	// $include-offsets - {boolean} if true, include offset classes at this breakpoint
+	($bp-xsmall, ".row-start-xsmall", false),
+	($bp-small, ".row-start-small", false),
+	($bp-medium, null, true),
+);
+$grid-dynamic: (
+	// Create grid classes that vary in size at different breakpoints
+	// Add/remove classes, breakpoints, and sizes as needed
+	// ($class, $breakpoint, $width)
+	// $class - {string} the grid class
+	// $breakpoint - {string|variable} the breakpoint
+	// $width - {string|variable} width of the grid at the breakpoint
+	(".grid-dynamic", $bp-xsmall, map-get($grid-sizes, half))
+	(".grid-dynamic", $bp-small, map-get($grid-sizes, third))
+	(".grid-dynamic", $bp-medium, map-get($grid-sizes, fourth))
+); 
+
+.container {
+	max-width: $container-max-width;
+	width: $container-width;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	margin-left: $grid-margins * -1;
+	margin-right: $grid-margins * -1;
+}
+
+%grid-base {
+	float: left;
+	width: 100%;
+	padding-left: $grid-margins;
+	padding-right: $grid-margins;
+}
+
+@each $grid, $width in ($grid-sizes) {
+	.grid-#{$grid} {
+		@extend %grid-base;
+	}
+}
+
+
+/**
+ * Reverses order of grid for content choreography
+ */
+.grid-flip {
+	float: right;
+}
+
+
+/**
+ * Add columns to grid on bigger screens
+ */
+@each $breakpoint, $prefix, $offset in ($grid-breakpoints){
+	@media (min-width: $breakpoint) {
+		@each $grid, $width in ($grid-sizes) {
+			#{$prefix} .grid-#{$grid} {
+				width: $width;
+			}
+		}
+		@if $offset {
+			@each $grid, $width in ($grid-sizes) {
+				#{$prefix} .offset-#{$grid} {
+					margin-left: $width;
+				}
+			}
+		}
+	}
+}
+
+/**
+ * Dynamic grid
+ */
+ @each $namespace, $breakpoint, $width in ($grid-dynamic){
+ 	#{$namespace} {
+ 		@extend %grid-base;
+ 	}
+ 	@media (min-width: $breakpoint) {
+ 		#{$namespace} {
+ 			width: $width;
+ 		}
+ 	}
+ }
+
+// Add clearfix
+.container,
+.row {
+	@extend .clearfix;
+}

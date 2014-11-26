@@ -1,0 +1,18 @@
+
+//
+// PATTERNS
+// 
+
+@import "_header", "_main", "_footer", "_collection", "_portfolio", "_blog";
+
+@import "_forms", "_buttons", "_tables";
+
+// Misc. Patterns (to be categorized later)
+
+.profile {
+  float: right;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  width: 30%;
+  height: auto;
+}

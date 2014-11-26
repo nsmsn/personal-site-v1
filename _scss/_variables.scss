@@ -4,67 +4,41 @@
 //
 
 // Colors
-
-// Warm
-$pink: #E870A0;
-$pink-dark: #BA5A80;
-$fuchisa: #C91D60;
-$fuchisa-dark: #A01C4E;
-$red: #EF5829;
-$red-dark: #A73E24;
-$orange: #EC9F27;
-$orange-dark: #BA7D2B;
-$yellow: #E4B924;
-$yellow-dark: #B5932F;
-
-//Cool
-$lime: #92CFAA;
-$lime-dark: #75AB89;
-$green: #ACA935;
-$green-dark: #8A8533;
-$aqua: #4DC2C6;
-$aqua-dark: #3A999D;
-$blue: #2B7AA1;
-$blue-dark: #236280;
-$purple: #62557B;
-$purple-dark: #392B5B;
+@import "_colors";
 
 
-$slate: #5E7A88;
-$slate-dark: #37596E;
-$wine: #7C4A5D;
-$wine-dark: #4F1426;
-
-// Grayscale
-$black: #2C2D2D;
-$charcoal: #393A39;
-$gray04: #515352;
-$gray03: #74746A;
-$gray02: #A1A094;
-$gray01: #D4D2C9;
-$cream: #E9E8E1;
-$white: #F6F5F0;
-
-
-// Grayscale fail-safe
-$pure-black: #000;
-$darkerGray: $gray04;
-$darkGray: $gray03;
-$gray: $gray02;
-$lightGray: $gray01;
-$pure-white: #fff;
-$grey: $gray;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$league: "league-gothic", "franklin-gothic-urw-comp", "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic", "Arial Narrow", Impact, Helvetica, Arial, sans-serif;
 $franklin: "franklin-gothic-urw-comp", "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic", "Arial Narrow", Impact, Helvetica, Arial, sans-serif;
 $chap: "chaparral-pro", Cambria, Georgia, serif;
+$mono: Menlo, Monaco, "Courier New", monospace;
 
-// Mobile breakpoints
+//border
+$none: 	1px solid $pure-white;
+
+// Breakpoints
+$bp-xsmall: 20em;
+$bp-small: 30em;
+$bp-medium: 40em;
+$bp-large: 60em;
+$bp-xlarge: 80em;
+
+
+// Sizing
+$font-size-base: 100%;
+$font-size-xlarge-screens: 125%;
+$spacing: 1.5625em;
+$container-width: 94%;
+$container-max-width: 824px;
+
+
+// Breakpoints
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 30em) {
     @content;
   }
 }

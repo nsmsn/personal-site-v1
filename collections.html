@@ -1,0 +1,22 @@
+---
+layout: default
+
+title: Default Collections View
+permalink: /collections/
+
+---
+
+<h1>Collections</h1>
+
+  {% for project in site.work %}
+    <ul class="collection-list clearfix"><li>
+      <a href="{{ project.url }}">
+      	<img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
+      	
+      	<h6 style="color: #{{project.accent}}">{{ project.title }}</h6>
+      
+      <p>{{ project.short-description }}</p></a>
+    </li>
+</ul>
+  {% endfor %}
+</div>

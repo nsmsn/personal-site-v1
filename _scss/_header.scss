@@ -1,0 +1,108 @@
+
+//
+// HEADER
+// 
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 40px;
+  background-color: $white;
+  border-bottom: 2px solid $cream;
+
+}
+
+.masthead {
+  padding: 10px 0;
+  
+  @include mobile {
+    text-align: center;
+  }
+
+  > nav a
+  {
+  	@include mobile{
+  		font-size: 18px;
+  	}
+  }
+}
+
+.site-avatar {
+  background-color: $red;
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
+  margin-top: 16px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin-top: 10px;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $league; 
+  font-weight: 400;
+  font-size: 42px;
+  text-transform: uppercase;
+
+    @include mobile {
+    margin: 4px 0;
+    font-size: 36px;
+  }
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 16px;
+  
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 24px; // @TODO: Vertically middle align
+  font-family: $chap; 
+  font-size: 18px;
+  
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $darkGray;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $slate;
+    }
+  }
+}

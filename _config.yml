@@ -15,6 +15,10 @@ avatar: http://nsmsn.github.io/images/monogram.png
 # Flags below are optional
 #
 
+collections:
+  work:
+    output: true
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
@@ -30,7 +34,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
-disqus: 
+disqus: nsmsn
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-45863222-1
@@ -59,12 +63,13 @@ version: v1.0.0
 # Set the Sass partials directory, as we're using @imports
 sass:
   sass_dir: _scss
-  style: :expanded # You might prefer to minify using :compressed
+  style: :compressed # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-redirect-from # sets up redirects on GitHub pages: https://help.github.com/articles/redirects-on-github-pages/
 
 # Exclude these files from your production _site
 exclude:

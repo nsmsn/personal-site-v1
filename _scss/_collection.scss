@@ -1,0 +1,30 @@
+
+//
+// COLLECTION
+//
+
+.collection-list {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+	padding-bottom: 2%;
+
+	>li a{width: 100%;}
+
+	>li p{margin-top: -10px;}
+
+	>li a img { width: 33%; height: auto; float: left; padding-right:13px;}
+
+	>li a{
+		>
+		h6{color: $red;}
+		p {color: $gray03;}
+	}
+
+	>li a:hover h6, li a:hover p{color: $gray02;}
+
+}
+
+.collection-list li a, .collection-list a:hover {
+border-bottom: 0px #fff solid !important;
+}

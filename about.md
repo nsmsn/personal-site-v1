@@ -1,15 +1,40 @@
 ---
-layout: page
-title: Designer, process junkie and space pen user
+layout: icons
+title: Information
 permalink: /info/
 ---
 
-Some information about you!
+#Designer, process junkie, and space pen user
+<img class="profile" alt="Portrait of Nick Simson" src="/images/profile-2014.jpg" />
+I’ve been exploring graphic design in one form or another for as long as I can remember. My formal education in design began in 2004 as soon as I discovered that there was a college major that combined photography, drawing, writing, and creating letterforms on cold-press illustration board. That was also the year I bought my first Apple computer.
 
-### More Information
+Today, I work full-time for a large, mission-focused, public organization and occasionally contribute pixels, code, and CMS know-how for small projects, independent artists and other worthy causes. I live in the <a href="https://en.wikipedia.org/wiki/Knoxville,_Tennessee" title="Knoxville, Tennessee">Marble City</a> and am married to <a href="http://eleanoraldrich.com" title="Eleanor Aldrich">Eleanor</a>, who makes paintings.
 
-A place to include any other types of information that you'd like to include about yourself. 
+<div id="contact" class="contact-form">
+<h5>Swap Howdies</h5>
+Send your email to nicksimson [at] gmail.com or use this contact form:
 
-### Contact me
+<form method="POST" action="http://forms.brace.io/nicksimson@gmail.com">
+    
+        <div class="form-group">
+            <label for="exampleInputName">Name</label>
+            <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name">
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleTextArea">Message</label>
+            <textarea name="message" class="form-control" rows="3"></textarea>    
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
 
-[nicksimson@gmail.com](mailto:nicksimson@gmail.com)
+### About this Site
+This is my personal website, portfolio, and blog. Like most websites, this one is perpetually under development. You can track its progress at [this GitHub repo](https://github.com/nsmsn/nsmsn.github.io).
+
+My motto lately has been &ldquo;Define, then refine&rdquo;. I ended up using Jekyll and Github Pages to teach myself something new and to build a simple site I can iterate on quickly. For those interested in digging deeper, I created a page with more <a href="/info/resources/" title="Resources">background info</a> on some of the tech and tools I’m currently using.
