@@ -127,3 +127,26 @@ em, i {
 strong, b {
   font-weight: bold;
 }
+
+// Blockquotes
+
+  blockquote {
+    margin: 1.8em 0 0 0;
+    border-left: 2px solid $gray01;
+    padding: 0 1em;
+    color: $gray03;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}

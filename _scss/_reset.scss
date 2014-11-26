@@ -1,8 +1,23 @@
 
 //
-// MEYER RESET
-//
+// RESET
+// Eric Meyer's CSS Reset, Normalized.css, and custom code.
+// @link http://meyerweb.com/eric/tools/css/reset/
+// @link http://necolas.github.io/normalize.css/
+// forked from http://cferdinandi.github.io/kraken/
 
+
+// Mobile screen resizing
+// @link http://dev.w3.org/csswg/css-device-adapt/
+
+@-webkit-viewport { width: device-width; zoom: 1.0; }
+   @-moz-viewport { width: device-width; zoom: 1.0; }
+	@-ms-viewport { width: device-width; zoom: 1.0; }
+	 @-o-viewport { width: device-width; zoom: 1.0; }
+		@viewport { width: device-width; zoom: 1.0; }
+
+
+//Remove defaults
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,13 +34,14 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family: $serif;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 // HTML5 display-role reset for older browsers
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, main, menu, nav, section, summary {
 	display: block;
 }
 body {
@@ -46,6 +62,63 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+audio,
+canvas,
+video {
+	display: inline-block;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+img,
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+iframe,
+object,
+embed {
+	max-width: 100%;
+}
+
+/**
+ * Hide the template element in IE, Safari, and Firefox < 22.
+ */
+template {
+	display: none;
+	visibility: hidden;
+}
+
+/**
+ * Prevents IE from making scaled images look like crap
+ */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+/**
+ * Address outline inconsistency between Chrome and other browsers.
+ */
+a:focus,
+button:focus {
+	outline: thin dotted;
+	outline: calc-em(5px) auto -webkit-focus-ring-color;
+	outline-offset: calc-em(-2.5px);
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:hover,
+a:active {
+	outline: 0;
+}
+
 // Apply a natural box layout model to all elements
 // from: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 *, *:before, *:after {

@@ -30,7 +30,7 @@ Send your email to nicksimson [at] gmail.com or use this contact form:
             <label for="exampleTextArea">Message</label>
             <textarea name="message" class="form-control" rows="3"></textarea>    
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <input type="submit" class="btn" value="submit"/>
     </form>
 </div>
 
