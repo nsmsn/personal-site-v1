@@ -1,5 +1,5 @@
 ---
-layout: icons
+layout: page
 title: Information
 permalink: /info/
 ---
@@ -11,10 +11,10 @@ I’ve been exploring graphic design in one form or another for as long as I can
 Today, I work full-time for a large, mission-focused, public organization and occasionally contribute pixels, code, and CMS know-how for small projects, independent artists and other worthy causes. I live in the <a href="https://en.wikipedia.org/wiki/Knoxville,_Tennessee" title="Knoxville, Tennessee">Marble City</a> and am married to <a href="http://eleanoraldrich.com" title="Eleanor Aldrich">Eleanor</a>, who makes paintings.
 
 <div id="contact" class="contact-form">
-<h5>Swap Howdies</h5>
-Send your email to nicksimson [at] gmail.com or use this contact form:
+<h3>Swap Howdies</h3>
+Send your email to nicksimson [at] gmail.com
 
-<form method="POST" action="http://forms.brace.io/nicksimson@gmail.com">
+<!--<form method="POST" action="http://forms.brace.io/nicksimson@gmail.com">
     
         <div class="form-group">
             <label for="exampleInputName">Name</label>
@@ -23,7 +23,7 @@ Send your email to nicksimson [at] gmail.com or use this contact form:
     
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="youremail@domain.com">
         </div>
     
         <div class="form-group">
@@ -31,7 +31,7 @@ Send your email to nicksimson [at] gmail.com or use this contact form:
             <textarea name="message" class="form-control" rows="3"></textarea>    
         </div>
         <input type="submit" class="btn" value="submit"/>
-    </form>
+    </form>-->
 </div>
 
 ### About this Site

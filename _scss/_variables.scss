@@ -36,12 +36,12 @@ $font-size-base: 100%;
 $font-size-xlarge-screens: 125%;
 $spacing: 1.5625em;
 $container-width: 94%;
-$container-max-width: 824px;
+$container-max-width: 836px;
 
 
 // Breakpoints
 @mixin mobile {
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: $bp-small) {
     @content;
   }
 }

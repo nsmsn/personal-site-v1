@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-
+<div id="main" role="main" class="main-container primary">
 <article class="post">
+  
   <h1>{{ page.title }}</h1>
   <div class="date">
     Published on {{ page.date | date: "%B %e, %Y" }}
@@ -11,6 +12,11 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-
+</div>
+<div id="comments" class="disqus">
+<div class="main-container">	
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
+</div>
+</div>
+
 </article>

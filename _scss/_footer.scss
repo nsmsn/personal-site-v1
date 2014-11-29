@@ -18,9 +18,12 @@
 
 footer {
   padding: 20px 0;
-  text-align: center;
+}
+
+.footer-links {
+  text-align: right;
 
   @include mobile {
-    text-align: left;
+  text-align: center;
   }
 }
