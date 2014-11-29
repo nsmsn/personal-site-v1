@@ -12,9 +12,9 @@ Today, I work full-time for a large, mission-focused, public organization and oc
 
 <div id="contact" class="contact-form">
 <h3>Swap Howdies</h3>
-Send your email to nicksimson [at] gmail.com
+Send your email to nick [at] nicksimson.com
 
-<!--<form method="POST" action="http://forms.brace.io/nicksimson@gmail.com">
+<form method="POST" action="http://forms.brace.io/nick@nicksimson.com">
     
         <div class="form-group">
             <label for="exampleInputName">Name</label>
@@ -31,7 +31,7 @@ Send your email to nicksimson [at] gmail.com
             <textarea name="message" class="form-control" rows="3"></textarea>    
         </div>
         <input type="submit" class="btn" value="submit"/>
-    </form>-->
+    </form>
 </div>
 
 ### About this Site
