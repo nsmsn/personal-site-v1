@@ -12,7 +12,7 @@ Today, I work full-time for a large, mission-focused, public organization and oc
 
 <div id="contact" class="contact-form">
 <h3>Swap Howdies</h3>
-Send your email to nick [at] nicksimson.com
+Send your email to nick [at] nicksimson.com, or use the form below: 
 
 <form method="POST" action="http://forms.brace.io/nick@nicksimson.com">
     

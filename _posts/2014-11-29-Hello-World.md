@@ -13,7 +13,7 @@ What should a web designer's personal website look like in 2014? That's a good q
 ###A place to try stuff out
 A portfolio is really important if you're trying to get hired. At the moment, I'm steadily employed, so I'm treating mine as sort of a "Greatest Hits" section. 
 
-I have found writing to be a great way to piece together my thoughts, but more importantly communicate these ideas to others. Having some kind of blog is helpful for others to find you, and figure out what you're about. I am not going to make any kind of promises about the frequency, length, or format of my posts, but I will make a few things clear:
+I don't fancy myself a professional writer, but I use it as a way to organize my thoughts and communicate ideas to others. Having some kind of blog is helpful for others to find you, and figure out what you're about. I am not going to make any kind of promises about the frequency, length, or format of my posts, but I will make a few things clear:
 
 * I am not writing on behalf of my employers or the people who pay me. I won't discuss specific clients or projects without explicit permission.
 
