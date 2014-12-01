@@ -6,11 +6,8 @@ The code powering this site is released under the MIT License, however all conte
 
 My Jekyll starting point was [Barry Clark](https://github.com/barryclark/)'s hugely helpful [Jekyll Now](https://github.com/barryclark/jekyll-now). Check out his documentation and [Smashing article](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) if you are interested in starting a similar project for yourself.
 
-### [Jekyll Now](https://github.com/barryclark/jekyll-now) Credits
+### Credits
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful. 
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+- [Jekyll Now](https://github.com/barryclark/jekyll-now#jekyll-now) by Barry Clark
+- [Kraken](https://github.com/cferdinandi/kraken) - minimally styled mobile first front-end boilerplate by Chris Ferdinandi
+- [Barebones](https://github.com/paulrobertlloyd/barebones) - Front-end style guide and pattern primer by Paul Robert Lloyd
