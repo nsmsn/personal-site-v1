@@ -2,6 +2,7 @@
 layout: page
 title: Resources
 permalink: /info/resources/
+published: true
 ---
 
 <nav role="navigation" class="breadcrumb-nav" id="top">
@@ -13,7 +14,7 @@ permalink: /info/resources/
 
 What I love most about designing for the web is the collaborative nature of the medium. There are many starting points to web design, ranging from the absurdly simple to the dizzingly complex.
 
-I'm planning to use this space to highlight and curate different tools sources of information that have helped me out in my career, endeavors, and in building this site.
+I'm planning to use this space to highlight my favorite tools and curate sources of information that have helped me out.
 
 ##Tech Powering This Site
 * [Github Pages](https://pages.github.com/) and [Jekyll](http://jekyllrb.com/)
@@ -23,4 +24,4 @@ I'm planning to use this space to highlight and curate different tools sources o
 * There's a good chance you are reading text rendered in webfonts served by [Typekit](https://typekit.com/colophons/tyd0bgr).
 <!--* Occasional icons served via CDN thanks to [FontAwesome](https://fortawesome.github.io/Font-Awesome/icons/).-->
 * [Forms by Brace.io](http://forms.brace.io/): great form tool for static websites.
-* I'm also maintaining a living <a href="/info/style-guide/" title="Style Guide">style guide</a> for this site if you're curious about that kind of thing. 
+* I'm also maintaining a living <a href="/info/style-guide/" title="Style Guide">style guide</a> for this site if you're curious about that kind of thing.
