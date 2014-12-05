@@ -2,6 +2,7 @@
 layout: page
 title: Information
 permalink: /info/
+published: true
 ---
 
 #Designer, process junkie, and space pen user
@@ -30,7 +31,7 @@ Send your email to nick [at] nicksimson.com, or use the form below:
             <label for="exampleTextArea">Message</label>
             <textarea name="message" class="form-control" rows="3"></textarea>    
         </div>
-        <input type="submit" class="btn" value="submit"/>
+        <button type="submit" class="btn" value="submit">Submit</button>
     </form>
 </div>
 
