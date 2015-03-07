@@ -33,7 +33,6 @@
 .link-under {
   color: $red;
   border-bottom: 1px dotted $gray01;
-  display: inline-block;
   margin-bottom: -.25em;
   padding-bottom: -1em;
 }
@@ -51,3 +50,11 @@
 .main-container a:hover {
   @extend .link-hover;
   }
+
+.main container a img{
+    border-bottom: 0px solid #fff ;
+}
+
+.main container a:hover img{
+    border-bottom: 0px solid #fff;
+}
