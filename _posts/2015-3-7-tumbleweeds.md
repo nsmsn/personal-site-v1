@@ -5,8 +5,8 @@ permalink: /new-tumbleweeds-website/
 summary: Communication, prototyping, and tools to build a simple, beautiful site that works everywhere.
 ---
 
-<a href="http://tumbleweedsband.com/"><img src="/images/post-images/tw-web-preview.jpg" alt="Screenshots of The Tumbleweeds website" /></a>
-<figcaption>A simple, responsive website design for the Tumblweeds band. <a href="http://tumbleweedsband.com/">View it live</a> in the browser.</figcaption>
+<figure><a href="http://tumbleweedsband.com/"><img src="/images/post-images/tw-web-preview.jpg" alt="Screenshots of The Tumbleweeds website" /></a>
+<figcaption>A simple, responsive website design for the Tumblweeds band. <a href="http://tumbleweedsband.com/">View it live</a> in the browser.</figcaption></figure>
 
 I was contacted in the fall of 2014 by Byron Ripley about designing a website for his band, [the Tumbleweeds](http://tumbleweedsband.com/). They play classic country and dance tunes in the Honky Tonk and Western Swing tradition. I've been friends with Byron for about ten years now, and remember the ealy days of the  Tumbleweeds duo (Byron and Joe Carter) in Flagstaff/Williams, AZ. 
 
