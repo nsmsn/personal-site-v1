@@ -39,3 +39,12 @@ Send your email to nick [at] nicksimson.com, or use the form below:
 This is my personal website, portfolio, and blog. Like most websites, this one is perpetually under development. You can track its progress at [this GitHub repo](https://github.com/nsmsn/nsmsn.github.io).
 
 My motto lately has been &ldquo;Define, then refine&rdquo;. I ended up using Jekyll and Github Pages to teach myself something new and to build a simple site I can iterate on quickly. For those interested in digging deeper, I created a page with more <a href="/info/resources/" title="Resources">background info</a> on some of the tech and tools I’m currently using.
+
+### Elsewhere
+I'm trying to do my part to keep the personal website thing relevant and not some relic of a bygone, pre-social media age. That said, if you are interested, you can
+
+* Chirp with me on [Twitter](https://twitter.com/nsmsn)
+* View my commits on [GitHub](https://twitter.com/nsmsn)
+* See my screenshots on [Tumblr](https://nsmsn.tumblr.com)
+* Keep up with my pages on [Goodreads](https://www.goodreads.com/user/show/12733451-nick) and tabs on [Reading.am](https://www.reading.am/nsmsn)
+
