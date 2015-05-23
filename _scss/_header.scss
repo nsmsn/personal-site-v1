@@ -10,27 +10,25 @@
 .wrapper-masthead {
   margin-bottom: 40px;
   background-color: $white;
-  border-bottom: 2px solid $cream;
-
+  border-top: 6px solid $gray02; 
 }
 
 .masthead {
-  padding: 10px 0;
+  padding: 10px 0; 
   
   @include mobile {
     text-align: center;
   }
 
-  > nav a
-  {
+  > nav a{
   	@include mobile{
-  		font-size: 18px;
+  		font-size: 1.125em;
   	}
   }
 }
 
 .site-avatar {
-  background-color: $red;
+  background-color: $salmon;    
   float: left;
   width: 36px;
   height: 36px;
@@ -65,7 +63,7 @@
   text-transform: uppercase;
 
     @include mobile {
-    margin: 4px 0;
+    margin: 0.25em 0;
     font-size: 36px;
   }
 }
@@ -94,15 +92,11 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
     color: $darkGray;
-    text-align: right;
+    text-align: center;
     font-weight: 300;
     letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $slate;
-    }
   }
 }

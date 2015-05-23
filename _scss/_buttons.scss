@@ -4,7 +4,7 @@
 //
 
 button,
-.btn {
+.button {
 	display: inline-block;
 	font-family: $sans;
 	color: $white;
@@ -18,10 +18,10 @@ button,
 	font-size: calc-em(15px);
 	line-height: 1.2;
 	font-weight: normal;
-	background-color: $gray03;
+	background-color: $gray04;
 	border-radius: 0.25em;
 	padding: 0.5em 0.75em;
-	border: 1px solid $gray03;  /*IE 6/7/8*/
+	border: 1px solid $gray04;  /*IE 6/7/8*/
     border: none rgba(0, 0, 0, 0);  /*IE9 + everything else*/
     text-transform: uppercase;
 }
@@ -29,7 +29,7 @@ button,
 
 
 button,
-.btn {
+.button {
 	cursor: pointer;
 	text-align: center;
 	vertical-align: middle;
@@ -39,35 +39,35 @@ button,
     box-shadow: none;
 }
 
-.btn:last-child,
+.button:last-child,
 input.btn {
 	margin-right: 0;
 }
 
-a.btn,
-a.btn:hover,
-a.btn:hover,
-a.btn.active {
+a.button,
+a.button:hover,
+a.button:hover,
+a.button.active {
 	color: $white;
 	border-bottom: none;
 }
 
-.btn:hover,
-a .btn:hover,
-.btn.active {
-	background-color: darken( $gray03, 15% );
-	border-color: darken( $gray03, 15% );
+.button:hover,
+a .button:hover,
+.button.active {
+	background-color: darken( $gray04, 15% );
+	border-color: darken( $gray04, 15% );
 	text-decoration: none;
 }
 
-.btn:active,
-.btn.active {
+.button:active,
+.button.active {
 	box-shadow: inset 0 calc-em(2.5px) calc-em(4px) rgba(0, 0, 0, 0.15), 0 calc-em(1px) calc-em(2.5px) rgba(0, 0, 0, 0.05);
 	outline: 0;
 }
 
-.btn.disabled,
-.btn[disabled] {
+.button.disabled,
+.button[disabled] {
 	pointer-events: none;
 	cursor: not-allowed;
 	opacity: 0.5;
@@ -75,16 +75,16 @@ a .btn:hover,
     box-shadow: none;
 }
 
-.btn-large {
+.button-large {
 	padding: calc-em(11px) calc-em(15px);
 	font-size: 1em;
 	line-height: normal;
 }
 
-.btn-block,
-input[type="submit"].btn-block,
-input[type="reset"].btn-block,
-input[type="button"].btn-block {
+.button-block,
+input[type="submit"].button-block,
+input[type="reset"].button-block,
+input[type="button"].button-block {
 	display: block;
 	width: 100%;
 	margin-right: 0;
@@ -100,7 +100,7 @@ kbd {
 	line-height: 90%;
 	background-color: $charcoal;
 	margin: 0 0.25em; /* 0 4px */
-	border: 1px solid $gray04;
+	border: 1px solid $gray05;
 	border-radius: 4px;
 	padding: 0.3334em 0.5em;
 	box-shadow: inset 0 1px 0 $black;

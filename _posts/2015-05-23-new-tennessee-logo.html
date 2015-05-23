@@ -1,0 +1,20 @@
+---
+layout: post
+title: Tennessee’s new 248 byte state logo
+permalink: /tennessee-state-logo-css/
+summary: Most media coverage has focused on the $46,000 price tag and the rudimentary simplicity of the design. 
+published: true
+---
+
+<p>A <a href="http://www.underconsideration.com/brandnew/archives/tennessee_gets_questioned.php">new logo for the state of Tennessee</a> made the local headlines this week. The red square with the state's postal code replaces many various marks for many different government offices, most of which used the iconic <a href="http://www.netstate.com/states/symb/flags/tn_flag.htm">Tri-Star emblem from the state flag</a>.</p>
+
+<p>Unsurprisingly, the media coverage has mostly been about the $46,000 price tag, and the rudimentary simplicity of the new design. The definitive article on <a href="http://designobserver.com/feature/graphic-design-criticism-as-a-spectator-sport/37607/">graphic design criticism as a spectator sport</a> has already been written, but as a designer and a resident of Tennessee, I still feel compelled to respond.</p> 
+
+<p>I have been reading and researching a lot about web performance lately. When I saw the new state logo, I was struck by how easily it could be written in plain ’ol box-model CSS. Before I could open a code editor, I had most of it mapped out pretty well in my head. I did drag the screenshot into Photoshop to use the color picker to get the colors accurate. The example below was the result of a few more minutes of playing with the <code>border</code>, <code>box-shadow</code>, <code>font-size</code>, and <code>letter-spacing</code> attributes:</p> 
+
+<p data-height="320" data-theme-id="15376" data-slug-hash="wazNZM" data-default-tab="result" data-user="nsmsn" class='codepen'>See the Pen <a href='http://codepen.io/nsmsn/pen/wazNZM/'>New Tennessee state logo in 227 bytes of CSS</a> by Nick Simson (<a href='http://codepen.io/nsmsn'>@nsmsn</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>The <a href="https://gist.github.com/nsmsn/f6e4bfe2bfde2732c4e3">minified output of the css code</a> is less than 250 bytes, which means this logo could be delivered to the tn.gov websites super-fast in a global CSS stylesheet without incurring any additional HTTP requests. GS&amp;F, the advertising firm responsible for the logo hasn’t issued a case study yet, but the <a href="http://www.wsmv.com/story/29118925/tennessee-pays-46k-for-new-state-logo">WSMV news reported</a> that the logo would be used by several state agencies. Approaching logos and other website assets like this paves the way for a much faster, more mobile-friendly user experience for Tennesseans trying to access government services through weaker internet connections and data plans. For comparison, the <a href="https://gigaom.com/2014/12/29/the-overweight-web-average-web-page-size-is-up-15-in-2014/">average website size in 2014 was about ~2MB</a>.</p>
+
+<p>I do hope <a href="http://www.gsandf.com/about/">GS&amp;F</a> issues a release or case study soon, because I am still curious about the type their designers based the state logo from. In my <a href='http://codepen.io/nsmsn/pen/wazNZM/'>CodePen demo</a> above, I went with the closest web-safe serif font available on most desktop browsers. Ironically, that font is named <a href="http://typedia.com/explore/typeface/georgia">&ldquo;Georgia&rdquo;</a>. </p>

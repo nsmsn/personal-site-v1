@@ -4,15 +4,15 @@
 //
 
 .entry a {
-	border-bottom: 1px dotted $gray01;
+	border-bottom: 1px dotted $gray02;
 }
 
 .entry a:hover {
-	border-bottom: 1px solid $gray03;
+	border-bottom: 1px solid $gray02;
 }
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 3px solid $lightGray;
 }
 
 .posts > .post:last-child {
@@ -31,10 +31,16 @@
     float: right;
   }
 
+.post-heading {
+    font-family: $league;
+    padding-bottom: 2.5%;
+    text-transform: uppercase;
+}
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $gray04;
+  padding: .425em 0;
 }
 
 .disqus {

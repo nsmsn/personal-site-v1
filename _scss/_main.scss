@@ -5,7 +5,7 @@
 
 .main-container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 836px;
   padding: 0 10px;
   width: $container-width;
 }
@@ -31,15 +31,15 @@
 
 
 .link-under {
-  color: #D9390D;
-  border-bottom: 1px dotted $gray01;
-  margin-bottom: -.25em;
-  padding-bottom: -1em;
+  color: $red;
+  border-bottom: 1px dotted $gray02;
+  margin-bottom: -.75em;
+  padding-bottom: -2em;
 }
 
 .link-hover{
-    color: $gray03;
-    border-bottom:2px solid $gray01;
+    color: $black;
+    border-bottom: 1px solid $gray02;
     }
 
 .main-container  a{
@@ -51,10 +51,10 @@
   @extend .link-hover;
   }
 
-.main container a img{
+.main-container figure a {
     border-bottom: 0px solid #fff ;
 }
 
-.main container a:hover img{
+.main-container figure a:hover {
     border-bottom: 0px solid #fff;
 }

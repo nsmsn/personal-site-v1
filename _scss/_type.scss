@@ -37,7 +37,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $franklin;
-  color: $gray03;
+  color: $gray04;
   font-weight: 400;
   
   line-height: 1em;
@@ -76,7 +76,7 @@ h4 {
 }
 
 h5 {
-	color: $gray03;
+	color: $gray04;
 	font-size: 1.125em;
 }
 
@@ -95,7 +95,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $gray02;
+    color: $black;
   }
 }
 
@@ -132,10 +132,10 @@ strong, b {
 
   blockquote {
     margin: .9em 0 .9em 0;
-    border-left: 2px solid $gray01;
+    border-left: 3px solid $gray01;
     padding: 0 1em;
-    color: $gray03;
-    font-size: 22px;
+    color: $gray04;
+    font-size: 1.375em;
     font-style: italic;
   }
 

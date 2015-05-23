@@ -17,7 +17,7 @@ a,u,ins{
 }
 
 ins{
-    border-bottom:1px solid;
+    border-bottom:1px solid $red;
 }
 
 samp {
@@ -116,7 +116,7 @@ img {
 hr {
   background: none;
   border: $none;
-  border-bottom:1px solid $gray01;
+  border-bottom:3px solid $gray01;
   width: 100%;
   margin: 0 auto;
   margin-top:1em;

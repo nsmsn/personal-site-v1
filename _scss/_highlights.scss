@@ -15,9 +15,10 @@
 }
  
 code {
-  font-family: 'Courier', monospace;
-  font-size: 14px;
-  color: #999
+  font-family: 'Menlo', 'Monaco', 'Courier', monospace;
+  font-size: 0.75em;
+  color: $purple;
+  background-color: $gray01;
 }
  
 // Solarized Light Pygments 
