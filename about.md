@@ -44,7 +44,7 @@ My motto lately has been &ldquo;Define, then refine&rdquo;. I ended up using Jek
 I'm trying to do my part to keep the personal website thing relevant and not some relic of a bygone, pre-social media age. That said, if you are interested, you can
 
 * Chirp with me on [Twitter](https://twitter.com/nsmsn)
-* View my commits on [GitHub](https://twitter.com/nsmsn)
-* See my screenshots on [Tumblr](https://nsmsn.tumblr.com)
+* View my commits on [GitHub](https://github.com/nsmsn)
+* See my screenshots on [Tumblr](http://nsmsn.tumblr.com)
 * Keep up with my pages on [Goodreads](https://www.goodreads.com/user/show/12733451-nick) and tabs on [Reading.am](https://www.reading.am/nsmsn)
 
