@@ -45,6 +45,7 @@ I'm trying to do my part to keep the personal website thing relevant and not som
 
 * Chirp with me on [Twitter](https://twitter.com/nsmsn)
 * View my commits on [GitHub](https://github.com/nsmsn)
-* See my screenshots on [Tumblr](http://nsmsn.tumblr.com)
+* See my GIFs and screenshots on [Tumblr](http://nsmsn.tumblr.com)
+* Flip through my "collections" on [Gimme Bar](https://gimmebar.com/loves/nsmsn)
 * Keep up with my pages on [Goodreads](https://www.goodreads.com/user/show/12733451-nick) and tabs on [Reading.am](https://www.reading.am/nsmsn)
 
