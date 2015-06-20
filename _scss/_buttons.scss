@@ -7,7 +7,7 @@ button,
 .button {
 	display: inline-block;
 	font-family: $sans;
-	color: $white;
+	color: $gray05;
 	text-decoration: none;
     text-transform: none;
 	text-indent: 0px;
@@ -18,10 +18,10 @@ button,
 	font-size: calc-em(15px);
 	line-height: 1.2;
 	font-weight: normal;
-	background-color: $gray04;
+	background-color: $gray02;
 	border-radius: 0.25em;
 	padding: 0.5em 0.75em;
-	border: 1px solid $gray04;  /*IE 6/7/8*/
+	border: 1px solid $gray03;  /*IE 6/7/8*/
     border: none rgba(0, 0, 0, 0);  /*IE9 + everything else*/
     text-transform: uppercase;
 }
@@ -48,15 +48,16 @@ a.button,
 a.button:hover,
 a.button:hover,
 a.button.active {
-	color: $white;
+	color: $black;
 	border-bottom: none;
 }
 
 .button:hover,
 a .button:hover,
 .button.active {
-	background-color: darken( $gray04, 15% );
-	border-color: darken( $gray04, 15% );
+    background-color: $gray03;
+	background-color: darken( $gray02, 15% );
+	border-color: darken( $gray02, 15% );
 	text-decoration: none;
 }
 
@@ -90,6 +91,16 @@ input[type="button"].button-block {
 	margin-right: 0;
 	padding-right: 0;
 	padding-left: 0;
+}
+
+.button-white {
+    background-color: $white;
+    border: 1px solid $gray05;
+}
+
+.button-white:hover {
+    background-color: $gray02;
+    border: 1px solid $black;
 }
 
 // ------ HTML 'kbd' element ------

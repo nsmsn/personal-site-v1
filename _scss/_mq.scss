@@ -3,10 +3,11 @@
 /* MEDIA QUERIES */
 /***************/
 
-@media (min-width: 40em) {
+@media (min-width: $bp-medium) {
     
     .masthead nav {
-  margin-top: 1em;
+  margin-top: .625em;
+  float: right;        
   }
     
   .masthead nav a {
@@ -40,19 +41,34 @@
 		line-height: 1.22222222em;
 	}
 
-	.post h1 {
-		text-align: center;
-	}
+//	.post h1 {
+//		text-align: center;
+//	}
 
-	div.date {text-align: center;}
+//	div.date {text-align: center;}
     
     .main-container {
-        padding-left: 56px;
+      padding-left: 56px;
+    }
+    
+    .hero-breadcrumb {
+      padding-left: 56px;
+}     
+    
+     .portfolio-detail-box {
+     margin-bottom: 2em;
+ }
+    
+    .footer-links {
+      text-align: right;
+}
+    .profile, book{
+      width: 30%;
     }
 
 }
 
-@media (min-width: 56.25em) {
+@media (min-width: $bp-large) {
 
 
     body {
@@ -60,7 +76,9 @@
     }
     
 .site-name {
+    margin-top: 30px;
 	padding-top: 3px;}
+    
 
 	h1 {
 		font-size: 2.85em;
@@ -69,11 +87,59 @@
 
 	h2 {
 		font-size: 2.25em;
+        letter-spacing: -1px;
 	}
 
 	h3 {
 		font-size: 1.75em;
 	}
     
+    .hero-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
 
 }	
+
+ @media (min-width: 1440px) and (min-height: 720px) {
+    
+  body {
+    font-size: 24px;
+    }
+     
+.container {
+	max-width: 1220px;
+}
+     
+ .site-avatar {
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+    margin-top: 16px;
+    }
+    
+.site-name {
+    font-size: 56px;
+    }
+.masthead nav {
+   padding-right: 60px;
+}
+     
+.masthead nav a {
+    font-size: 1.667em;
+    }
+
+.main-container {
+    max-width: 1220px;
+    padding-left: 72px;
+    padding-right: 72px;
+    }
+     
+.hero-breadcrumb {
+    padding-left: 72px;
+}     
+     
+     
+}

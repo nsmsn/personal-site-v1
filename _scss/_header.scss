@@ -8,7 +8,7 @@
 //
 
 .wrapper-masthead {
-  margin-bottom: 40px;
+  margin-bottom: 2px;
   background-color: $white;
   border-top: 6px solid $gray02; 
 }
@@ -33,12 +33,13 @@
   width: 36px;
   height: 36px;
   margin-right: 20px;
-  margin-top: 16px;
+  margin-top: 9px;
 
   @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
+    margin-top: 16px;
   }
 
 }
@@ -54,8 +55,8 @@
 }
 
 .site-name {
-  margin-top: 10px;
-  color: $darkGray;
+  margin-top: 20px;
+  color: $gray04;
   cursor: pointer;
   font-family: $league; 
   font-weight: 400;
@@ -79,8 +80,8 @@
 }
 
 nav {
-  float: right;
-  margin-top: 24px; // @TODO: Vertically middle align
+  //float: right;
+  //margin-top: 24px; // @TODO: Vertically middle align
   font-family: $chap; 
   font-size: 18px;
   
@@ -88,13 +89,13 @@ nav {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   a {
     margin-left: 15px;
     margin-right: 10px;
-    color: $darkGray;
+    color: $gray04;
     text-align: center;
     font-weight: 300;
     letter-spacing: 1px;

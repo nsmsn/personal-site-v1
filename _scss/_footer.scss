@@ -5,10 +5,11 @@
 
 .wrapper-footer {
   margin-top: 75px;
-  font-size: 16px;
+  font-size: 0.875em;
   color: $gray04;
   border-top: 1px dashed $gray02;
   background-color: $pure-white;
+    
 
     @include mobile {
     margin-top: 50px;
@@ -20,11 +21,14 @@ footer {
   padding: 20px 0;
 }
 
-.footer-links {
-  text-align: right;
-     
+footer a {
+    color: #111;
+}
 
-  @include mobile {
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
   text-align: center;
-  }
 }

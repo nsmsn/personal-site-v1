@@ -2,6 +2,8 @@
 layout: post
 title: Deploy
 summary: An obligatory first blog post
+
+accent: 146AFF
 ---
 
 <img src="/images/post-images/parachute-sandbox.jpg" alt="parachuter landing in sandbox" />

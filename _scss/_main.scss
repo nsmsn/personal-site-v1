@@ -5,7 +5,7 @@
 
 .main-container {
   margin: 0 auto;
-  max-width: 836px;
+  max-width: $container-max-width;
   padding: 0 10px;
   width: $container-width;
 }
@@ -18,6 +18,7 @@
 	> a {
 		margin-left: 0px;
 		margin-right: 0px;
+        text-transform: uppercase;
 
 		@include mobile {
      margin-left: 0px;
@@ -30,11 +31,11 @@
 // ------ default links ------
 
 
-.link-under {
-  color: $red;
+.link-under {    
   border-bottom: 1px dotted $gray02;
-  margin-bottom: -.75em;
+  margin-bottom: -1em;
   padding-bottom: -2em;
+  line-height: 0;    
 }
 
 .link-hover{
@@ -42,17 +43,24 @@
     border-bottom: 1px solid $gray02;
     }
 
-.main-container  a{
-  @extend .link-under;
-  line-height: 1em;
-  }
 
-.main-container  a:hover {
+.main-container p a, .main-container li a{
+        @extend .link-under;
+        line-height: 0;
+        }
+
+.main-container a:hover {
+    color: $black;
+    }
+
+.main-container p a:hover, .main-container li a:hover{
   @extend .link-hover;
   }
 
+
+
 .main-container figure a {
-    border-bottom: 0px solid #fff ;
+ border-bottom: 0px solid #fff ;
 }
 
 .main-container figure a:hover {

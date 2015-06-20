@@ -3,18 +3,22 @@ layout: page
 title: Information
 permalink: /info/
 published: true
+background: fff8eb
+
 ---
 
 #Designer, process junkie, and space pen user
-<img class="profile" alt="Portrait of Nick Simson" src="/images/profile-2014.jpg" />
+
+<img class="profile" alt="Pencil sketch of Nick drawn by Eleanor Aldrich" src="/images/pencil-sketch-natural.jpg" />
+
 I’ve been exploring graphic design in one form or another for as long as I can remember. My formal education in design began in 2004 as soon as I discovered that there was a college major that combined photography, drawing, writing, and creating letterforms on cold-press illustration board. That was also the year I bought my first Apple computer.
 
-Today, I work full-time for a large, mission-focused, public organization and occasionally contribute pixels, code, and CMS know-how for small projects, independent artists and other worthy causes. I live in the <a href="https://en.wikipedia.org/wiki/Knoxville,_Tennessee" title="Knoxville, Tennessee">Marble City</a> and am married to <a href="http://eleanoraldrich.com" title="Eleanor Aldrich">Eleanor</a>, who makes paintings.
+Today, I work full-time for a large, mission-focused, public organization and occasionally contribute pixels, code, and CMS know-how for small projects, independent artists and other worthy causes. I live in the <a href="https://en.wikipedia.org/wiki/Knoxville,_Tennessee" title="Knoxville, Tennessee">Marble City</a> and am married to <a href="http://eleanoraldrich.com" title="Eleanor Aldrich">Eleanor</a>, who makes paintings and drew the pencil sketch on this page.
 
-<div id="contact" class="contact-form">
+<div id="contact">
+
 <h3>Swap Howdies</h3>
 Send your email to nick [at] nicksimson.com, or use the form below: 
-
 <form method="POST" action="http://forms.brace.io/nick@nicksimson.com">
     
         <div class="form-group">

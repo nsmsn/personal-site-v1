@@ -1,0 +1,28 @@
+---
+layout: default
+
+title: Work
+permalink: /work/
+
+---
+
+<div id="main" role="main" class="main-container primary">
+<h1 class="centered">Work</h1>
+  
+    <div class="row">
+    {% for project in site.work %}
+<div class="grid-dynamic project-container gutterless" style="background-color: #{{project.accent}}" data-right-height-content>
+      <a class="project-url" href="{{ project.url }}">
+        <img class="preview" src="{{ project.preview-path }}" alt="{{ project.title}}" />
+          <span class="project-details">
+                <h4 class="detail-title">{{ project.title }}</h4>
+                <p class="project-description">{{ project.short-description }}</p>
+              </span>
+            </a>
+            </div>
+          
+  {% endfor %}
+    </div>
+
+
+</div>

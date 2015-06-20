@@ -3,6 +3,8 @@ layout: post
 title: Collaborating on the new Tumbleweeds site
 permalink: /new-tumbleweeds-website/
 summary: Communication, prototyping, and tools to build a simple, beautiful site that works everywhere.
+
+accent: e5503a
 ---
 
 <figure><a href="http://tumbleweedsband.com/"><img src="/images/post-images/tw-web-preview.jpg" alt="Screenshots of The Tumbleweeds website" /></a>
@@ -49,11 +51,11 @@ I had an opportunity to build up a visual identity for the band over time, initi
 
 <div class="row">
 
-<div class="grid-half"><img src="/images/post-images/2015-03-tw-colors.jpg" alt="Screenshot of color pallette"/></div>
+<div class="grid-half"><figure><img src="/images/post-images/2015-03-tw-colors.jpg" alt="Screenshot of color pallette"/>
+<figcaption>I used Adobe Illustrator to develop the color palette and went back into the code editor to add color to the static prototype</figcaption></figure></div>
 
 <div class="grid-half"><img src="/images/post-images/2015-03-tw-proto.jpg" alt="Screenshot of web prototype"/></div>
-
-<figcaption>I used Adobe Illustrator to develop the color palette and went back into the code editor to add color to the static prototype</figcaption>    </div>
+    </div>
 
 Once I had worked some of the fonts, colors and logo into my HTML documents, I sent screenshots to Byron to show the visual direction I was going in. Working with live embeddable media from YouTube and Bandcamp was also helpful at this early stage for writing responsive breakpoints and containers to house multimedia content in. Bandcamp's audio player, for example, adapts to its container width.
 

@@ -9,11 +9,11 @@ permalink: /blog/
   {% for post in site.posts %}
     <article class="post">    
       
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}" style="color: #{{ post.accent }}">{{ post.title }}</a></h2>
       <div class="entry">
       	<p class="lede">{{ post.summary }}</p>
        <!-- {{ post.content | truncatewords:40}}-->
-       <a href="{{ site.baseurl }}{{ post.url }}" class="date">
+       <a href="{{ site.baseurl }}{{ post.url }}" class="date" style="color: #{{ post.accent }}">
     {{ post.date | date_to_string }}</a>
       </div>
       

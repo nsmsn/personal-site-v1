@@ -1,24 +1,67 @@
 ---
-layout: page
+layout: default
 ---
+<style type="text/css">
+  .box {
+    padding: 1.25em 1.25em;
+    color: #fff;}
+    
+  .box a, .box a:hover {
+    color: #fff;}
+    
+  .box p a {border-bottom: 0px none rgba(255,255,255,0.0);}
+    
+  .box-dark {color: #222233;}
+    
+  .date { float: right;}
+    
+  .front-row {
+      margin: 0 auto;
+      margin-top: 2%;
+      width: 90%;
+      max-width: 1400px;}
+    
+    .button {margin: .2em .05em;}
+    
+    
+    html, body {
+        background-color: #53555F;
+    }
+    
+    
+</style>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
+
+  <div class="row front-row row-start-small gutterless">
       
-      <h1>{{ post.title }}</h1>
-
-<div class="date">
-    Published on {{ post.date | date: "%B %e, %Y" }}<br/>
-    <a href="{{ site.baseurl }}{{ post.url }}">Permalink</a>
-  </div>
-
-      <div class="entry">
-        
-       {{ post.content | truncatewords:179}}
-       
+      <div class="grid-fourth grid-flip"><img class="circle" src="images/profile-sq.jpg" alt=""></div>
+      
+      <div class="grid-three-fourths box box-dark gutterless" style="background-color: #FFCC33"><p class="lede">I'm Nick, a graphic designer working with pixels, print, and code.</p>
+      
+<div class="row row-start-xsmall gutterless">
+    <div class="grid-third gutterless"><figure><img src="images/gifs/pixel-paintbucket.gif" alt="pixelated paint bucket dumping multicolored pixels in infinte loop" /></figure>
+    </div>
+    <div class="grid-third gutterless"><figure><img src="images/gifs/print-cmyk.gif" alt="Animated sequence of paper flipping over to reveal a graphic in Cyan, Magenta, Yellow, and Black" /></figure></div>
+    <div class="grid-third gutterless"><figure><img src="images/gifs/code-blink-cursor.gif" alt="laptop screen with terminal window with blinking screen cursor" /></figure></div>
+</div>          
+          
       </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Keep Reading</a>
-    </article>
-  {% endfor %}
-</div>
+        
+      
+      {% assign post = site.posts.first %}
+      <div class="grid-two-thirds grid-flip box gutterless" style="background-color: #{{ post.accent }}">
+      <h6>Latest Post</h6>
+         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="entry"></div>
+          <p class="lede"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.summary }}</a></p>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="date">
+    {{ post.date | date_to_string }}</a>
+ 
+      </div>
+      
+      <div class="grid-third gutterless box">
+      <p><a class="button button-tweet" href="https://twitter.com/nsmsn">Twitter</a> <a class="button button-github" href="https://github.com/nsmsn">GitHub</a> <a class="button button-tumblr" href="http://nsmsn.tumblr.com">Tumblr</a></p>  
+          
+      </div>
+      
+    </div>

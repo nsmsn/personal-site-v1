@@ -12,9 +12,9 @@
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
-$league: "league-gothic", "franklin-gothic-urw-comp", "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic", "Arial Narrow", Impact, Helvetica, Arial, sans-serif;
+$league: "league-gothic", "League Gothic", "franklin-gothic-urw-comp", "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic", "Arial Narrow", Impact, Helvetica, Arial, sans-serif;
 $franklin: "franklin-gothic-urw-comp", "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic", "Arial Narrow", Impact, Helvetica, Arial, sans-serif;
-$chap: "chaparral-pro", Cambria, palatino, Georgia, serif;
+$chap: "chaparral-pro", "Chaparral Pro", "Chaparral", Cambria, palatino, Georgia, serif;
 $mono: Menlo, Monaco, "Courier New", monospace;
 
 $serif: $chap;
@@ -26,9 +26,9 @@ $none: 	1px solid $pure-white;
 // Breakpoints
 $bp-xsmall: 20em;
 $bp-small: 30em;
-$bp-medium: 40em;
-$bp-large: 60em;
-$bp-xlarge: 80em;
+$bp-medium: 40.625em;
+$bp-large: 56.25em;
+$bp-xlarge: 76.25em;
 
 
 // Sizing
@@ -36,12 +36,12 @@ $font-size-base: 100%;
 $font-size-xlarge-screens: 125%;
 $spacing: 1.5625em;
 $container-width: 94%;
-$container-max-width: 836px;
+$container-max-width: 960px;
 
 
 // Breakpoints
 @mixin mobile {
-  @media screen and (max-width: $bp-small) {
+  @media screen and (max-width: $bp-medium) {
     @content;
   }
 }

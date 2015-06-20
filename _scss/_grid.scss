@@ -37,8 +37,8 @@ $grid-dynamic: (
 	// $breakpoint - {string|variable} the breakpoint
 	// $width - {string|variable} width of the grid at the breakpoint
 	(".grid-dynamic", $bp-xsmall, map-get($grid-sizes, half))
-	(".grid-dynamic", $bp-small, map-get($grid-sizes, third))
-	(".grid-dynamic", $bp-medium, map-get($grid-sizes, fourth))
+	(".grid-dynamic", $bp-medium, map-get($grid-sizes, third))
+	(".grid-dynamic", $bp-large, map-get($grid-sizes, fourth))
 ); 
 
 .container {
@@ -113,4 +113,26 @@ $grid-dynamic: (
 .container,
 .row {
 	@extend .clearfix;
+}
+
+.gutterless {
+    margin: 0px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+//Extra floats
+.float-left {
+	float: left;
+}
+
+.float-center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.float-right {
+	float: right;
 }

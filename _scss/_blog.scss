@@ -3,11 +3,11 @@
 // BLOG
 //
 
-.entry a {
+.entry p a {
 	border-bottom: 1px dotted $gray02;
 }
 
-.entry a:hover {
+.entry p a:hover {
 	border-bottom: 1px solid $gray02;
 }
 .posts > .post {

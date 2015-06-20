@@ -50,16 +50,17 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 h1 {
-  font-family: $league;  
+  font-family: $chap;  
   font-size: 2em;
   line-height: 1.25em;
+     
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-family: $league;    
+  font-family: $chap;    
   font-size: 1.625em;
   line-height: 1.15384615em;
 }
@@ -81,7 +82,7 @@ h5 {
 }
 
 h6 {
-	color: $gray02;
+	color: $gray03;
 	text-transform: uppercase;
 	font-size: 16px;
 }
@@ -91,7 +92,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -119,6 +120,9 @@ ol ul, ul ol, ul ul, ol ol {
 ul ul, ol ul {
   list-style-type: circle;
 }
+
+li {
+    margin-bottom: .125em;}
 
 em, i {
   font-style: italic;
@@ -153,4 +157,17 @@ q:after {
 
 blockquote em {
     font-style: normal;
+}
+
+ul.list-unstyled {
+    list-style: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+.lede {
+    font-size: 1.125em;
+    padding-right: 1em;
 }

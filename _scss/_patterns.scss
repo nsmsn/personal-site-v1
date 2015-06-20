@@ -5,7 +5,7 @@
 
 @import "_header", "_main", "_footer", "_collection", "_portfolio", "_blog";
 
-@import "_forms", "_buttons", "_tables";
+@import "_forms", "_buttons", "_tables", "_social";
 
 // Misc. Patterns (to be categorized later)
 
@@ -13,7 +13,25 @@
   float: right;
   margin-left: 18px;
   margin-bottom: 10px;
-  width: 30%;
+  width: 45%;
   height: auto;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+.panel {
+	background-color: $gray01;
+	border: 1px solid $gray02;
+	padding: 0px 8px 0px 8px;
+
+	> h3 {margin-top: .5em;}
+}
+
+.panel-black {
+    background-color: $gray05;
+    border: 2px solid $black;
+    color: $white;
 }
 

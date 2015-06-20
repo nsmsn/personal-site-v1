@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}">
+    <script>
+  (function(d) {
+    var config = {
+      kitId: 'tyd0bgr',
+      scriptTimeout: 3000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+
+    <!-- Font-Awesome Icon Font -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <!-- Apple Touch Icons -->
+    <!-- https://github.com/audreyr/favicon-cheat-sheet -->
+<link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57.png">
+
+    <!-- MS Homescreen Icons -->
+    <meta name="msapplication-TileColor" content="#0088cc">
+    <meta name="msapplication-TileImage" content="/images/apple-touch-icon-72.png">
+  </head>
+
+  <body>
+      
+<style type="text/css">
+    
+     .site-avatar {
+        background-color: #{{ page.accent }};
+    }
+    .main-container a {
+    color: #{{ page.accent }};}      
+          
+    .portfolio-detail-box {
+        border-left: 1px dotted #{{ page.background }};
+ }
+
+ .portfolio-detail-box h5{
+      color: #{{ page.background }};
+ }
+          
+.portfolio-detail-box i{
+      color: #{{ page.accent }};
+ }    
+          
+.button-white {
+    border: 1px solid #{{ page.accent }} !important;
+   
+}          
+</style>
+      
+   {% include header.html %}
+      
+    <div class="hero" style="background-color: #{{ page.background }}">
+      <div class="container">
+          
+          <nav role="navigation" class="breadcrumb-nav hero-breadcrumb hero-text" id="top">
+     <a href="../">Work</a> > {{ page.title }}
+</nav>
+          
+        <h1 class="hero-title">{{ page.title }}</h1>
+
+         <div class="hero-container">
+             <img class="featured-image" src="{{ page.feature-path }}" />
+          </div>
+                
+</div>
+        
+      </div>
+
+    <div id="main" role="main" class="main-container primary">
+        
+      {{ content }}
+    </div>
+      
+      <div id="portfolio" class="disqus">
+      
+           <div class="main-container row">
+    {% for project in site.work %}
+<div class="grid-dynamic thumbnail-container" data-right-height-content>
+      <a class="project-url" href="{{ project.url }}">
+        <img class="thumbnail circle" src="{{ project.thumbnail-path }}" alt="{{ project.title}}" />
+          <span class="project-details">
+                <p class="project-description centered" style="color:#111111">{{ project.title }}</p>
+              </span>
+            </a>
+            </div>
+          
+  {% endfor %}
+    </div>
+
+      
+      </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include footer.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
