@@ -35,3 +35,12 @@
     color: $white;
 }
 
+.panel-highlight {
+    background-color: $gray01;
+	border: 1px dashed $gray02;
+	padding: 0px 11px 0px 11px;
+}
+
+.panel-highlight h4 {
+    text-align: center;
+}
