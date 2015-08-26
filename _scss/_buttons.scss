@@ -103,6 +103,12 @@ input[type="button"].button-block {
     border: 1px solid $black;
 }
 
+// ------ Mobile-friendly tap targets
+.tap {
+    padding: 11px 10px;
+    font-size: 1.5em;
+}
+
 // ------ HTML 'kbd' element ------
 kbd {
 	color: $white;

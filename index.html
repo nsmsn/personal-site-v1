@@ -1,12 +1,12 @@
 ---
-layout: icons
+layout: default
 ---
 <style type="text/css">
   .box {
     padding: 1.25em 1.25em;
     color: #fff;}
     
-  .box a, .box a:hover {
+  .box a, .box a:hover, .box h6 {
     color: #fff;}
     
   .box p a {border-bottom: 0px none rgba(255,255,255,0.0);}
@@ -49,7 +49,7 @@ layout: icons
         
       
       {% assign post = site.posts.first %}
-      <div class="grid-two-thirds grid-flip box gutterless" style="background-color: #{{ post.accent }}">
+      <div class="grid-three-fourths box gutterless" style="background-color: #{{ post.accent }}">
       <h6>Latest Post</h6>
          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       <div class="entry"></div>
@@ -59,18 +59,8 @@ layout: icons
  
       </div>
       
-      <div class="grid-third gutterless box">
-      <p>
-<a class="button button-tweet" href="https://twitter.com/nsmsn"><i class="fa fa-twitter"></i> Twitter</a> 
-<a class="button button-github" href="https://github.com/nsmsn"><i class="fa fa-github"></i> GitHub</a> 
-          <a class="button button-tumblr" href="http://nsmsn.tumblr.com"><i class="fa fa-tumblr"></i> Tumblr</a> 
-          
-<a class="button button-gimme" href="https://gimmebar.com/loves/nsmsn"><i class="fa fa-plus-circle"></i> Gimme Bar</a> 
-                
-<a class="button button-goodreads" href="https://www.goodreads.com/user/show/12733451-nick"><i class="fa fa-book"></i> Goodreads</a> 
-          <a class="button button-readingam" href="https://www.reading.am/nsmsn"><i class="fa fa-angellist"></i> Reading.am</a>
-</p>  
-          
+      <div class="grid-fourth gutterless box">
+      &nbsp;    
       </div>
       
     </div>

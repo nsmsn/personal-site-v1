@@ -66,6 +66,12 @@
       width: 30%;
     }
 
+    .tap {
+        padding: 5px 5px;
+        font-size: 1em;
+    }
+    
+    .lede {font-size: 1.5em;}
 }
 
 @media (min-width: $bp-large) {
@@ -100,6 +106,7 @@
       align-items: center;
     }
     
+    .lede {font-size: 1.625em;}
 
 }	
 

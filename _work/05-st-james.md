@@ -29,7 +29,7 @@ accent: 4C0F2A
 </div>
 
         <div class="grid-half">
-        <p class="lede">St. James is a large, diverse, and progressive Episcopal congregation in North Knoxville. I designed this identity for St. James in 2012 to accompany a redesign of the parish website.</p>
+        <p class="lede">St. James is a large, diverse, and progressive Episcopal congregation in North Knoxville. I designed a simple, versatile identity for St. James in 2012 to accompany a redesign of the parish website.</p>
         </div>
 </div>
 

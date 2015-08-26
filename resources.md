@@ -22,7 +22,8 @@ I'm planning to use this space to highlight my favorite tools and curate sources
 * Taylor Jones' [guide to Jekyll Collections](http://www.sitepoint.com/getting-started-jekyll-collections/) was also extremely useful
 * I've also been using Chris Ferdinandi's [Kraken](https://cferdinandi.github.io/kraken/) project as a starting point for a lot of development work lately.
 * There's a good chance you are reading text rendered in webfonts served by [Typekit](https://typekit.com/colophons/tyd0bgr).
-<!--* Occasional icons served via CDN thanks to [FontAwesome](https://fortawesome.github.io/Font-Awesome/icons/).-->
+* Icons served via CDN thanks to [FontAwesome](https://fortawesome.github.io/Font-Awesome/icons/).
+* Current Text Editor(s) of Choice: [Brackets](http://brackets.io) and [Sublime Text 2](https://www.sublimetext.com/)
 * [Forms by Brace.io](http://forms.brace.io/): great form tool for static websites.
 * On the fly, in-browser edits are maintained with [Prose.io](http://prose.io/#about) by [Development Seed](http://www.developmentseed.org/)
 * I'm also maintaining a living <a href="/info/style-guide/" title="Style Guide">style guide</a> for this site if you're curious about that kind of thing.

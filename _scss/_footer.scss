@@ -29,6 +29,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.footer-links {
+.footer-links, .footer-icons {
   text-align: center;
+}
+
+.footer-icons a{
+    color: $gray03;
+}
+
+.footer-icons a:hover{
+    color: #111;
 }
