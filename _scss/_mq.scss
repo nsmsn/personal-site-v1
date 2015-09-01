@@ -5,6 +5,10 @@
 
 @media (min-width: $bp-medium) {
     
+    .post, .entry, {
+    padding-right: 1em;
+} 
+    
     .masthead nav {
   margin-top: .625em;
   float: right;        
@@ -20,6 +24,10 @@
 	.site-name {
 		padding-top: 2px;
 	}
+    
+    blockquote {
+        font-size: 1.19em;
+    }
 
 	h1 {
 		font-size: 2.5em;
@@ -47,9 +55,10 @@
 
 //	div.date {text-align: center;}
     
-    .main-container {
+    .main-container, {
       padding-left: 56px;
     }
+    
     
     .hero-breadcrumb {
       padding-left: 56px;
@@ -59,9 +68,14 @@
      margin-bottom: 2em;
  }
     
-    .footer-links {
+    .footer-right {
       text-align: right;
-}
+    }
+        
+    .footer-left {
+        text-align: left;
+    }
+
     .profile, book{
       width: 30%;
     }
@@ -81,9 +95,17 @@
         font-size: 21px;
     }
     
+.post, .entry, {
+    padding-right: 1.75em;
+}    
+    
 .site-name {
     margin-top: 30px;
 	padding-top: 3px;}
+    
+    footer {
+      padding-left: 56px;
+    }
     
 
 	h1 {
@@ -105,8 +127,6 @@
       justify-content: center;
       align-items: center;
     }
-    
-    .lede {font-size: 1.5em;}
 
 }	
 

@@ -5,7 +5,7 @@ permalink: /digital-democracy/
 
 summary: Two recent books examine the social implications of a digitally mediated world.
 
-published: true
+published: false
 
 accent: 329699
 ---

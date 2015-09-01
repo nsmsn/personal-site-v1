@@ -8,7 +8,7 @@
 abbr[title],
 dfn[title] {
     color: $gray04;
-    border-bottom: 1px dashed $gray01;
+    border-bottom: 8px solid #effd5f;
     cursor: help;
 }
 
@@ -26,6 +26,10 @@ samp {
     background-color: $gray01;
     padding: 0.25em;
     opacity: .8;
+}
+
+mark {
+    background-color: #effd5f;
 }
 
 aside {
@@ -116,13 +120,12 @@ img {
 
 
 hr {
-  background: none;
-  border: $none;
-  border-bottom:3px solid $gray01;
+  background-color: $gray01;
+  border: 1px solid $gray01;
   width: 100%;
   margin: 0 auto;
   margin-top:1em;
   margin-bottom:1.5em;
-  height:2px;
-  padding:0 1em .5em 1em;
+  height:1px;
+  padding:0 1em .05em 1em;
   }

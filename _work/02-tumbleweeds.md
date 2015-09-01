@@ -30,7 +30,7 @@ accent: e3462f
 </div>
 
         <div class="grid-half">
-        <p class="lede">The Tumbleweeds are a Honky Tonk and Western Swing band based in Albuqueque, New Mexico. I started designing for the band in 2011, after Byron Ripley commissioned a logo and a few promo items.</p>
+        <p class="lede">The Tumbleweeds are a Honky Tonk and Western Swing band based in Albuquerque, New Mexico. I started designing for the band in 2011, after Byron Ripley commissioned a logo and a few promo&nbsp;items.</p>
         </div>
 </div>
 

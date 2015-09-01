@@ -4,18 +4,52 @@ published: true
 ---
 
 <style type="text/css">
+    
+  hr {
+  border: 1px solid #FF6633;
+  background-color: #FF6633;
+  }
+    
+  .lede { font-style: italic}
+    
+  .profile {padding-bottom: 1.125em;}    
+    
   .box {
-    padding: 1.25em 1.25em;
+    padding: 1em 1.25em;
+    font-size: 1em;  
+    }
+    
+a.box {width: 100%; display: block;}    
+    
+a.box-color {background-color: #222233}    
+
+  h1 {padding-right: 11px;}  
+    
+  .border-top {border-top: 5px solid #CCCDD1;}    
+    
+  a.box, a.box:hover, .box h6, h1, h3 {
     color: #fff;}
     
-  .box a, .box a:hover, .box h6 {
-    color: #fff;}
+  h3 { text-transform: uppercase;}    
+    
+  .box .profile {padding-bottom: .75em;}
     
   .box p a {border-bottom: 0px none rgba(255,255,255,0.0);}
     
-  .box-dark {color: #222233;}
+  .box-dark, .box-white, .box-white h6 {color: #222233;}
+          
+  .box-white { background-color: #fff;}
     
-  .date { float: right;}
+  a.box-white { color: #222233;}    
+    
+  .front-button {font-size: 1em; font-family: "franklin-gothic-urw-comp", "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase;}   
+    
+ .front-button:hover {background-color: #000 !important; }    
+ .front-button:hover {color: #FF6633 !important;}    
+            
+  .date { float: right; background-color: #53555F; color: #fff; font-size: 16px; padding: .4em .6em; text-transform: none !important;}
+    
+  a.box:hover .date {background-color: #A3A4AC; color: #111;}    
     
   .front-row {
       margin: 0 auto;
@@ -25,44 +59,92 @@ published: true
     
     .button {margin: .2em .05em;}
     
+    a.box h2 {font-size: 1.5em; color: #fff; text-transform: none !important;}
     
     html, body {
         background-color: #53555F;
+        color: #FFF;
     }
     
+    button.tap {
+        background-color: #53555F;
+        border: 1px solid #53555F;
+        color: #effd5f;
+        line-height: 1em;
+        height: 2em;
+        width: 2em;
+        margin: 0 0 -25px 0;}
+    
+    button.tap:hover {
+    border: 1px solid #effd5f;
+    color: #effd5f;}
+    
+    #random {color: #effd5f;}
     
 </style>
 
 
-  <div class="row front-row row-start-small gutterless">
+  <div class="row main-container">
       
-      <div class="grid-fourth grid-flip"><img class="circle" src="images/profile-sq.jpg" alt=""></div>
+      <script type="text/javascript">
+var nextWord = (function() {
+  var wordArray = ['the fold (kidding)','front-end web design','accessibility','the future', 'chorizo', 'performance', 'consistency', 'history', 'The Replacements', 'the Indie Web', 'content strategy', 'progressive enhancement', 'pixel art', 'line length and type scale' ];
+  var copy;
+  return function() {
+    if (!copy || !copy.length) copy = wordArray.slice();
+    return copy.splice(Math.random() * copy.length | 0, 1);
+  }
+}());
+
+</script>
       
-      <div class="grid-three-fourths box box-dark gutterless" style="background-color: #FFCC33"><p class="lede">I'm Nick, a graphic designer working with pixels, print, and code.</p>
+      <hr/>
+      <img class="profile circle" src="images/profile-sq.jpg" alt="">
+      <button class="tap" onclick="
+  document.getElementById('random').innerHTML = nextWord();
+"><i class="fa fa-refresh fa-spin"></i></button>
+      <h1>I&rsquo;m Nick, and I&rsquo;m thinking about <span id="random">design</span>.</h1>
+      <p class="lede">This is my personal&nbsp;website.</p>
+<hr/>
       
-<div class="row row-start-xsmall gutterless">
-    <div class="grid-third gutterless"><figure><img src="images/gifs/pixel-paintbucket.gif" alt="pixelated paint bucket dumping multicolored pixels in infinte loop" /></figure>
-    </div>
-    <div class="grid-third gutterless"><figure><img src="images/gifs/print-cmyk.gif" alt="Animated sequence of paper flipping over to reveal a graphic in Cyan, Magenta, Yellow, and Black" /></figure></div>
-    <div class="grid-third gutterless"><figure><img src="images/gifs/code-blink-cursor.gif" alt="laptop screen with terminal window with blinking screen cursor" /></figure></div>
-</div>          
+      <div class="grid-third"><h3 class="centered">Work</h3>
+    
+              
+          <a class="box gutterless front-button box-color tap border-top" href="/work/"><i class="fa fa-briefcase fa-lg"></i> &nbsp; Portfolio</a>
+          <div class="box gutterless box-white">
+          <h6>Capabilities</h6>
+              <small>Branding, visual identity, naming, front-end web development, content strategy, wireframes and prototypes, publication design, illustration.</small>
+          </div>
           
       </div>
-        
       
-      {% assign post = site.posts.first %}
-      <div class="grid-three-fourths box gutterless" style="background-color: #{{ post.accent }}">
-      <h6>Latest Post</h6>
-         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="entry"></div>
-          <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.summary }}</a></p>
-          <a href="{{ site.baseurl }}{{ post.url }}" class="date">
-    {{ post.date | date_to_string }}</a>
- 
+      
+      <div class="grid-third"><h3 class="centered">Blog</h3>
+      
+           {% assign post = site.posts.first %}
+      <a style="background-color: #{{ post.accent }}" class="box gutterless front-button border-top" href="{{ site.baseurl }}{{ post.url }}">
+          <h6>Latest</h6>
+          <h2>{{ post.title }}</h2>
+          <span class="date">
+              {{ post.date | date_to_string }}</span></a>
+        <a class="box box-white gutterless front-button tap" href="/blog/"><i class="fa fa-archive fa-lg"></i> &nbsp; Posts Archive</a> 
+      
       </div>
       
-      <div class="grid-fourth gutterless box">
-      &nbsp;    
+      
+      
+      <div class="grid-third"><h3 class="centered">Info</h3>
+      
+          <a class="box box-white gutterless front-button tap border-top" href="/info/">&nbsp;<i class="fa fa-bolt fa-lg"></i> &nbsp; Biography</a>
+          
+          <a class="box gutterless box-color front-button tap" href="/info/#contact"><i class="fa fa-envelope"></i> &nbsp; Contact Me</a>
+          
+          <a class="box box-white gutterless front-button tap" href="/info/resources/"><i class="fa fa-link"></i> &nbsp; Resources</a>
+          
+          <a class="box box-white gutterless front-button tap" href="/info/style-guide/"><i class="fa fa-code"></i> &nbsp; Style Guide</a>
+          
+          <a class="box box-white gutterless front-button tap" href="/zelda/"><i class="fa fa-paw"></i> &nbsp; Zelda</a>
+          
       </div>
       
-    </div>
+      </div>

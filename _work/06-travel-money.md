@@ -28,7 +28,7 @@ accent: 5B7076
 </div>
 
         <div class="grid-half">
-        <p class="lede">The purpose of this video was to present travel expense reimbursement information in a memorable and informative way. Through animation and illustration, the video features the most frequent travel reimbursment scenarios and explains how to follow policy.</p>
+        <p class="lede">The purpose of this video was to present travel expense reimbursement information in a memorable and informative way. Through animation and illustration, the video features the most frequent travel reimbursment scenarios and explains how to follow&nbsp;policy.</p>
         </div>
 </div>
 

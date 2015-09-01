@@ -27,7 +27,7 @@ accent: f77f00
 </div>
 
         <div class="grid-half">
-        <p class="lede"><strong><em>Tennessee Alumnus</em></strong> is the alumni magazine of all graduates of the University of Tennessee statewide. The Fall 2013 issue was about growth on the UT System's campuses and changes in classroom technology and course delivery. I contributed illustrations for the feature story and cover.</p>
+        <p class="lede"><strong><em>Tennessee Alumnus</em></strong> is the alumni magazine of all graduates of the University of Tennessee statewide. The Fall 2013 issue was about growth on the UT System's campuses and changes in classroom technology and course delivery. I contributed illustrations for the feature story and&nbsp;cover.</p>
         </div>
 </div>
 

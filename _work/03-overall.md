@@ -27,7 +27,7 @@ accent: 3e9971
 </div>
 
         <div class="grid-half">
-        <p class="lede">Jason Overall is a musician, composer and artistic director. I helped him create his first website. </p>
+        <p class="lede">Jason Overall is a musician, composer and artistic director. I helped him create his first&nbsp;website. </p>
         </div>
 </div>
 

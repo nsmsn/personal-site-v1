@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Collaborating on the new Tumbleweeds site
+title: Collaborating on the new Tumbleweeds&nbsp;site
 permalink: /new-tumbleweeds-website/
-summary: Communication, prototyping, and tools to build a simple, beautiful site that works everywhere.
+summary: Communication, prototyping, and tools to build a simple, beautiful site that works&nbsp;everywhere.
 
 accent: e5503a
 ---

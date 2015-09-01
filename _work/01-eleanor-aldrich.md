@@ -27,7 +27,7 @@ accent: 9A7415
 </ul></div>
 
         <div class="grid-half gutterless">
-        <p class="lede">I helped Eleanor establish her first online portfolio in 2008. Five years later we worked to overhaul the site's structure and CMS. The redesigned site focuses on the best possible presentation of her artwork at every imaginable device size.</p>
+        <p class="lede">I helped Eleanor establish her first online portfolio in 2008. Five years later we worked to overhaul the site's structure and CMS. The redesigned site focuses on the best possible presentation of her artwork at every imaginable device&nbsp;size.</p>
         </div>
 </div>
 

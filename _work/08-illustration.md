@@ -17,7 +17,7 @@ accent: F15A29
 
 ---
 
-<p class="lede">A small collection of commissioned and self-directed illustration and iconography from the past few years.</p>
+<p class="lede">A small collection of commissioned and self-directed illustration and iconography from the past few&nbsp;years.</p>
 
 <div class="row">
 <p>Holiday party invites, 2012 and 2014:</p>

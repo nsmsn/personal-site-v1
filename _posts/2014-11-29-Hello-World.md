@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploy
-summary: An obligatory first blog post
+summary: An obligatory first blog&nbsp;post
 
 accent: 146AFF
 ---

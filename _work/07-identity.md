@@ -16,7 +16,7 @@ accent: 0000ff
 
 ---
 
-<p class="lede">A small collection of logos and branding/identity work I&rsquo;ve done over the past few years.</p>
+<p class="lede">A small collection of logos and branding/identity work I&rsquo;ve done over the past few&nbsp;years.</p>
 
 <div class="row">
 
