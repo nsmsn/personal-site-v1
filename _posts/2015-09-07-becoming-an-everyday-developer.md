@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Becoming an everyday developer
-permalink: /becoming-an-everyday-developer/
-
-summary: What to learn, how to learn it, and what to learn next.
+permalink: "/becoming-an-everyday-developer/"
+summary: "What to learn, how to learn it, and what to learn next."
 published: true
-
 accent: 694486
 ---
+
 
 A week ago [I shared a few highlights and my impressions](http://nicksimson.com/everyday-developers/) from a recent Web Ahead discussion about "everyday developers". I made the point that web development is not a monolith: There are a lot of different kinds of websites, there are a ton of different tools and ways to deploy a site, and noone should be expected to know everything.
 
@@ -90,6 +89,7 @@ Also, the technology industry is rotten with misogyny, racism, and entitlement; 
 
 ####Further Reading:
 * Chris Ferdinandi, <em>[Wicked Fast Websites](http://gomakethings.com/downloads/wicked-fast-websites-ebook/wicked-fast-websites.pdf)</em>
+* Stephen Hay, <em><a href="http://www.the-haystack.com/2015/07/03/my-name-is-stephen-and-im-a-generalist/">My name is Stephen and I'm a generalist</a></em>
 * David Kadavy, [How to Learn Web Design](http://designforhackers.com/blog/how-to-learn-web-design/)
 * Erik Runyon, [Lessons learned from my first semester of teaching](http://erikrunyon.com/2014/01/lessons-learned-from-my-first-semester-of-teaching/)
 * Kylie Timpani, [Dear Developer. Love, Designer.](http://humaan.com/dear-developer-love-designer/)
