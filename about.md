@@ -20,7 +20,10 @@ Today, I work full-time for a large, mission-focused, public organization and oc
     
 <h3>Get in touch</h3>
 Send your email to nick [at] nicksimson.com, or use the form below: 
-<form method="POST" action="http://forms.brace.io/nick@nicksimson.com">
+
+
+<form action="http://formspree.io/nick@nicksimson.com"
+      method="POST">
     
         <div class="form-group">
             <label for="exampleInputName">Name</label>
