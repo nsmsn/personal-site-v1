@@ -8,6 +8,9 @@
   max-width: $container-max-width;
   padding: 0 10px;
   width: $container-width;
+  flex: 1 0 auto; /* 2 */
+  padding: var(--space) var(--space) 0;
+    
 }
 
 .breadcrumb-nav {
