@@ -6,94 +6,84 @@ summary: Nick Simson is a communication designer, occasional blogger, and newly 
 
 ---
 
+{% assign post = site.posts.first %}
+
 <style type="text/css">
     
-  hr {
-  border: 1px solid #FF6633;
-  background-color: #FF6633;
-  }
-    
-  .lede { font-style: italic}
-    
-  .profile {padding-bottom: 1.125em;}    
-    
-  .box {
-    padding: 1em 1.25em;
-    font-size: 1em;  
-    }
-    
-a.box {width: 100%; display: block;}    
-    
-a.box-color {background-color: #222233}    
-
-  h1 {padding-right: 11px;}  
-    
-  .border-top {border-top: 5px solid #CCCDD1;}    
-    
-  a.box, a.box:hover, .box h6, h1, h3 {
-    color: #fff;}
-    
-  h3 { text-transform: uppercase;}    
-    
-  .box .profile {padding-bottom: .75em;}
-    
-  .box p a {border-bottom: 0px none rgba(255,255,255,0.0);}
-    
-  .box-dark, .box-white, .box-white h6 {color: #222233;}
-          
-  .box-white { background-color: #fff;}
-    
-  a.box-white { color: #222233;}    
-    
-  .front-button {font-size: 1em; font-family: "franklin-gothic-urw-comp", "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase;}   
-    
- .front-button:hover {background-color: #000 !important; }    
- .front-button:hover {color: #FF6633 !important;}    
-            
-  .date { float: right; background-color: #53555F; color: #fff; font-size: 16px; padding: .4em .6em; text-transform: none !important;}
-    
-  a.box:hover .date {background-color: #A3A4AC; color: #111;}    
-    
-  .front-row {
-      margin: 0 auto;
-      margin-top: 2%;
-      width: 90%;
-      max-width: 1400px;}
-    
-    .button {margin: .2em .05em;}
-    
-    a.box h2 {font-size: 1.5em; color: #fff; text-transform: none !important;}
-    
-    html, body {
-        background-color: #53555F;
+html, body {
+        background-color: #565656;
         color: #FFF;
     }
     
-    button.tap {
-        background-color: #53555F;
-        border: 1px solid #53555F;
-        color: #effd5f;
-        line-height: 1em;
-        height: 2em;
-        width: 2em;
-        margin: 0 0 -25px 0;}
+    .monogram {
+        fill: #{{ post.accent }};
+    }    
+
+div.hero{
+    background-color: #282833;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #{{ post.accent }};
+    color: #eee;
+    }        
+
     
-    button.tap:hover {
-    border: 1px solid #FF6633;
-    color: #FF6633;}
+  hr {
+  border: 3px solid #53555F;
+  background-color: #53555F;
+  max-width: 4em;      
+  }
     
-    #random {color: #effd5f;}
+  .wrapper-masthead {
+  background-color: #282833;
+    }
+    .site-name {
+        visibility: hidden;
+    }
+
+    .masthead nav a{
+        color: #{{ post.accent }};
+    }    
     
-    #random:hover {cursor: pointer; color: #FF6633; }
+    .masthead nav a:hover{
+        color: #eee;
+    }
+    
+    a:hover .monogram, .site-avatar .monogram:hover {
+        fill: #eee;
+    }
+    
+  .lede { font-size: 18px; font-style: italic; text-align: center;}
+    
+  .profile {padding-bottom: 1.125em;}     
+    
+  a.box-color, a.box-color:hover, .box-color h6, a.blog-promo h6, h3 {
+    color: #fff;}
+    
+a.box:hover .date {background-color: #A3A4AC; color: #111;}  
+    
+  h3 { text-transform: uppercase;}    
+    
+            
+  .date { float: right; background-color: #565656; color: #fff; font-size: 16px; padding: .4em .6em; text-transform: none !important;}
+      
+    
+.hero h1 {padding-top: 5%; color: #ddd; text-align: center; margin: 0 auto;}     
+    
+    #random {color: #{{ post.accent }};}
+    
+    #random:hover {cursor: pointer; color: #eee; }
     
 </style>
 
 
-  <div class="row main-container">
-      
-      <script type="text/javascript">
+<div class="hero">
+    <div class="container">
+         <div class="row">
+        <div class="grid-half">
+            
+           <script type="text/javascript">
 var nextWord = (function() {
-  var wordArray = ['the fold (kidding)','front-end web design','accessibility','the future', 'chorizo', 'performance', 'style guides', 'history', 'No-Wave', 'the Rite of Spring', 'libraries', 'little baby ducks', 'Proto-Punk', 'the Indie Web', 'content strategy', 'progressive enhancement', 'pixel art', 'ASCII art', 'ice cream', 'line length and type scale', 'space pens', 'black holes', 'inline styles' ];
+var wordArray = ['Graphic Designer Emeritus','I&rsquo;m glad you&rsquo;re here', 'Established 1987', 'America&rsquo;s Favorite Uncle',  'Define &amp;&nbsp;Refine&trade;', 'Your Friendly Neighborhood Communication&nbsp;Designer',  'Mr. Simson&rsquo;s wardrobe furnished by&nbsp;COSTCO', 'You Deserve a Non-breaking Space&nbsp;Today', 'Over 1 Dozen Taglines&nbsp;Served' ];
   var copy;
   return function() {
     if (!copy || !copy.length) copy = wordArray.slice();
@@ -103,16 +93,22 @@ var nextWord = (function() {
 
 </script>
       
-      <hr/>
-      <img class="profile circle" src="images/profile-sq.jpg" alt="">
-      <button class="tap" onclick="
+      <h1><span class="home-intro">You&rsquo;ve reached the personal website&nbsp;of</span>
+            <span class="home-name-plate">Nick Simson</span></h1>
+            <hr/>
+      <p class="lede" id="random" onclick="
   document.getElementById('random').innerHTML = nextWord();
-"><i class="fa fa-refresh fa-spin"></i></button>
-      <h1>I&rsquo;m Nick, and I&rsquo;m thinking about <span id="random" onclick="
-  document.getElementById('random').innerHTML = nextWord();
-">design</span>.</h1>
-      <p class="lede">This is my personal&nbsp;website.</p>
-<hr/>
+">[Insert Tagline Here]</p>
+             </div>
+             
+        <div class="grid-half"><img class="circle home-profile float-center" src="images/2015-nsimson-headshot-mono-600.jpg" alt="portrait of Nick" /></div>
+    </div>
+    </div>
+
+</div>
+
+
+  <div class="row main-container">
       
       <div class="grid-third"><h3 class="centered">Work</h3>
     
@@ -128,8 +124,7 @@ var nextWord = (function() {
       
       <div class="grid-third"><h3 class="centered">Blog</h3>
       
-           {% assign post = site.posts.first %}
-      <a style="background-color: #{{ post.accent }}" class="box gutterless front-button border-top" href="{{ site.baseurl }}{{ post.url }}">
+      <a style="background-color: #{{ post.accent }}" class="box gutterless front-button border-top blog-promo" href="{{ site.baseurl }}{{ post.url }}">
           <h6>Latest</h6>
           <h2>{{ post.title }}</h2>
           <span class="date">

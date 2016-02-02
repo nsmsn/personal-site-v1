@@ -12,9 +12,9 @@ header {
 //
 
 .wrapper-masthead {
-  margin-bottom: 2px;
   background-color: $white;
-  border-top: 6px solid $gray02; 
+  border-top: 6px solid $gray02;
+  flex: 1 0 auto;    
 }
 
 .masthead {
@@ -31,8 +31,7 @@ header {
   }
 }
 
-.site-avatar {
-  background-color: $salmon;    
+.site-avatar {   
   float: left;
   width: 36px;
   height: 36px;
@@ -46,6 +45,14 @@ header {
     margin-top: 16px;
   }
 
+}
+
+.site-avatar .monogram:hover {
+    fill: #000;
+}
+
+.site-avatar .site-name:hover {
+    color: #000;
 }
 
 .site-info {
@@ -87,7 +94,7 @@ nav {
   //float: right;
   //margin-top: 24px; // @TODO: Vertically middle align
   font-family: $chap; 
-  font-size: 18px;
+  font-size: 18px; 
   
   @include mobile {
     float: none;
@@ -104,4 +111,12 @@ nav {
     font-weight: 300;
     letter-spacing: 1px;
   }
+}
+
+.masthead nav {
+    padding-bottom: .5em; 
+    
+      @include mobile {
+          padding-bottom: 1em; 
+    }
 }

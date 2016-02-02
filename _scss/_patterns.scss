@@ -44,3 +44,73 @@
 .panel-highlight h4 {
     text-align: center;
 }
+
+// Home Page Styles
+
+.home-profile {
+        max-height: 20em;
+        max-width: 20em;
+        padding: 3em 3em;
+        margin: auto auto;
+    }
+
+.home-intro {font-size: 18px; line-height: 24px; font-style: italic; margin-top: 3%; margin-bottom: 18px; color: #CCCDD1; display: block;}   
+    
+.home-name-plate {
+        font-family: $league;
+        text-transform: uppercase;
+        font-size: 60px;
+    }
+
+@media (min-width: $bp-small) {
+    
+    .home-name-plate {font-size: 72px;}
+    
+}
+
+@media (min-width: $bp-medium) {
+    
+    .home-intro{ margin-top: 3em;}
+}
+
+  .front-row {
+      margin: 0 auto;
+      margin-top: 2%;
+      width: 90%;
+      max-width: 1400px;}
+    
+   
+  .front-button {
+      font-size: 1em; 
+      font-family: $franklin; 
+      text-transform: uppercase;}   
+    
+ .front-button:hover {background-color: #000 !important; }    
+ .front-button:hover {color: #FF6633 !important;}    
+
+
+a.box {width: 100%; display: block;}    
+    
+a.box-color {background-color: #222233}    
+
+    
+  .border-top {border-top: 5px solid #CCCDD1;}
+
+.box, a.box {
+    padding: 1em 1.25em;
+    font-size: 1em;  
+    }
+
+ .box .profile {padding-bottom: .75em;}
+    
+  .box p a {border-bottom: 0px none rgba(255,255,255,0.0);}
+    
+  .box-dark, .box-white, .box-white h6 {color: #222233;}
+          
+  .box-white { background-color: #fff;}
+    
+  a.box-white { color: #222233;}    
+
+ a.box h2 {font-size: 1.5em; color: #fff; text-transform: none !important;}
+    
+    

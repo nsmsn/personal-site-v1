@@ -84,10 +84,16 @@
   overflow: hidden;   
 }
 
+.hero {
+    background-color: $black;
+    flex: 1 0 auto;
+}
+
 .big-hero {
     background-color: $black;
     color: #fff;
     margin-bottom: 2em;
+    flex: 1 0 auto;
 }
 
 .hero-breadcrumb {
