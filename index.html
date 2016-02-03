@@ -22,7 +22,7 @@ html, body {
 div.hero{
     background-color: #282833;
     padding-bottom: 4px;
-    border-bottom: 4px solid #{{ post.accent }};
+    border-bottom: 1px solid #{{ post.accent }};
     color: #eee;
     }        
 
@@ -35,9 +35,19 @@ div.hero{
     
   .wrapper-masthead {
   background-color: #282833;
+  border-top: 6px solid #{{ post.accent }};
+  padding-top: 1em;      
     }
     .site-name {
         visibility: hidden;
+        border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
     }
 
     .masthead nav a{
@@ -51,8 +61,6 @@ div.hero{
     a:hover .monogram, .site-avatar .monogram:hover {
         fill: #eee;
     }
-    
-  .lede { font-size: 18px; font-style: italic; text-align: center;}
     
   .profile {padding-bottom: 1.125em;}     
     
@@ -96,7 +104,7 @@ var wordArray = ['Graphic Designer Emeritus','I&rsquo;m glad you&rsquo;re here',
       <h1><span class="home-intro">You&rsquo;ve reached the personal website&nbsp;of</span>
             <span class="home-name-plate">Nick Simson</span></h1>
             <hr/>
-      <p class="lede" id="random" onclick="
+      <p class="tagline" id="random" onclick="
   document.getElementById('random').innerHTML = nextWord();
 ">[Insert Tagline Here]</p>
              </div>

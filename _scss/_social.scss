@@ -9,6 +9,7 @@
 .tweet:hover,
 a.tap.tweet:hover {
   color: #55ACEE;
+  text-decoration: none;    
 }
 
 /*  Facebook */
@@ -16,6 +17,7 @@ a.tap.tweet:hover {
 .facebook:hover,
 a.tap.facebook:hover {
   color: #3B5998;
+  text-decoration: none;  
 }
 
 /*  Google */
@@ -24,24 +26,28 @@ a.tap.facebook:hover {
 a.tap.google:hover {
   background-color: #a02f21;
   border-color: #a02f21;
+  text-decoration: none;      
 }
 
 /*  LinkedIn */
 .linkedin:hover,
 a.tap.button-linkedin:hover {
-  color: #004265;
+  color: #004265; 
+  text-decoration: none;      
 }
 
 /*  Pinterest */
 .pinterest:hover,
 a.tap.pinterest:hover {
   color: #89161a;
+  text-decoration: none;      
 }
 
 /*  GitHub */
 .github:hover,
 a.tap.github:hover {
   color: #131212;
+  text-decoration: none;      
 }
 
 
@@ -49,12 +55,14 @@ a.tap.github:hover {
 .tumblr:hover,
 a.tap.tumblr:hover {
   color: #19212b;
+  text-decoration: none;  
 }
 
 /*  G00dReads */
 .goodreads:hover,
 a.tap.goodreads:hover {
   color: #734c2b;
+  text-decoration: none;  
 }
 
 
@@ -63,22 +71,26 @@ a.tap.goodreads:hover {
 a.tap.gimme:hover {
   background-color: #a81055;
   border-color: #a81055;
+  text-decoration: none;  
 }
 
 /*  Reading.am */
 .readingam:hover,
 a.tap.readingam:hover {
   color: #000;
+  text-decoration: none;  
 }
 
 /*  Dribbble */
 .dribbble:hover,
 a.tap.dribbble:hover {
   color: #EA4C89;
+  text-decoration: none;  
 }
 
 /*  Instagram */
 .instagram:hover,
 a.tap.instagram:hover {
   color: #3F729B;
+  text-decoration: none;  
 }
