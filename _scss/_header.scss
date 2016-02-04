@@ -47,11 +47,11 @@ header {
 
 }
 
-.site-avatar .monogram:hover {
+.site-avatar .monogram:hover, .site-avatar .monogram:focus {
     fill: #000;
 }
 
-.site-avatar .site-name:hover {
+.site-avatar .site-name:hover, .site-avatar .site-name:focus {
     color: #000;
 }
 

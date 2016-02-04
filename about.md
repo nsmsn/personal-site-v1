@@ -27,18 +27,19 @@ Send your email to nick [at] nicksimson.com, or use the form below:
       method="POST">
     
         <div class="form-group">
-            <label for="exampleInputName">Name</label>
-            <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name">
+            <label for="InputName">Name</label>
+            <input name="name" type="name" class="form-control" id="InputName" placeholder="Your Name">
         </div>
     
         <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="youremail@domain.com">
+            <label for="InputEmail1">Email address</label>
+            <input name="_replyto" type="email" class="form-control" id="InputEmail1" placeholder="youremail@domain.com">
         </div>
     
         <div class="form-group">
-            <label for="exampleTextArea">Message</label>
-            <textarea name="message" class="form-control" rows="3"></textarea>    
+        <label for="InputMessage">Message</label> 
+            <textarea id="InputMessage" name="message" class="form-control" rows="3"></textarea>
+               
         </div>
         <button type="submit" class="button" value="submit">SUBMIT</button>
     </form>

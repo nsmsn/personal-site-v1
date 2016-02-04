@@ -51,11 +51,11 @@
 // height: 300px;
 }
 
-.project-url:hover .preview, .project-url:hover .thumbnail  {
+.project-url:hover .preview, .project-url:hover .thumbnail, .project-url:focus .preview, .project-url:focus .thumbnail   {
   opacity: .1;
 }
 
-.project-url:hover .project-details {
+.project-url:hover .project-details, .project-url:focus .project-details {
   -webkit-animation: slide 450ms forwards;
   animation: slide 450ms forwards;
 }
@@ -73,7 +73,7 @@
   }
 }
 
-.project-url:hover .project-details {
+.project-url:hover .project-details, .project-url:focus .project-details {
   display: block
 }
 

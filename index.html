@@ -22,7 +22,7 @@ html, body {
 div.hero{
     background-color: #282833;
     padding-bottom: 4px;
-    border-bottom: 1px solid #{{ post.accent }};
+    border-bottom: 2px solid #222233;
     color: #eee;
     }        
 
@@ -54,12 +54,12 @@ div.hero{
         color: #{{ post.accent }};
     }    
     
-    .masthead nav a:hover{
-        color: #eee;
+    .masthead nav a:hover, .masthead nav a:focus {
+        color: #CCCDD1;
     }
     
-    a:hover .monogram, .site-avatar .monogram:hover {
-        fill: #eee;
+    a:hover .monogram, .site-avatar .monogram:hover,  a:focus .monogram, .site-avatar .monogram:focus {
+        fill: #CCCDD1;
     }
     
   .profile {padding-bottom: 1.125em;}     
@@ -72,14 +72,13 @@ a.box:hover .date {background-color: #A3A4AC; color: #111;}
   h3 { text-transform: uppercase;}    
     
             
-  .date { float: right; background-color: #565656; color: #fff; font-size: 16px; padding: .4em .6em; text-transform: none !important;}
-      
+  .date { float: right; background-color: #565656; color: #fff; font-size: 16px; padding: .4em .6em; text-transform: none !important;}   
     
 .hero h1 {padding-top: 5%; color: #ddd; text-align: center; margin: 0 auto;}     
     
     #random {color: #{{ post.accent }};}
     
-    #random:hover {cursor: pointer; color: #eee; }
+    #random:hover {cursor: pointer; color: #CCCDD1; }
     
 </style>
 
@@ -91,7 +90,7 @@ a.box:hover .date {background-color: #A3A4AC; color: #111;}
             
            <script type="text/javascript">
 var nextWord = (function() {
-var wordArray = ['Graphic Designer Emeritus','I&rsquo;m glad you&rsquo;re here', 'Established 1987', 'America&rsquo;s Favorite Uncle',  'Define &amp;&nbsp;Refine&trade;', 'Your Friendly Neighborhood Communication&nbsp;Designer',  'Mr. Simson&rsquo;s wardrobe furnished by&nbsp;COSTCO', 'You Deserve a Non-breaking Space&nbsp;Today', 'Over 1 Dozen Taglines&nbsp;Served' ];
+var wordArray = ['A generalist in the area of&nbsp;specialism', 'Graphic Designer Emeritus', 'Designing things for screens&nbsp;(mostly), paper&nbsp;(occasionally), and humans&nbsp;(always).', 'I&rsquo;m glad you&rsquo;re here.', 'Established 1987', 'Good Design for Great&nbsp;People', 'America&rsquo;s Favorite Uncle', 'Bring in the&nbsp;Signal',  'Define &amp;&nbsp;Refine&trade;', 'Your Friendly Neighborhood Communication&nbsp;Designer',  'Mr. Simson&rsquo;s wardrobe furnished by&nbsp;COSTCO', 'Non-Breaking Space&amp;nbsp;Invader', 'Over 1 Dozen Taglines&nbsp;Served' ];
   var copy;
   return function() {
     if (!copy || !copy.length) copy = wordArray.slice();
@@ -106,7 +105,7 @@ var wordArray = ['Graphic Designer Emeritus','I&rsquo;m glad you&rsquo;re here',
             <hr/>
       <p class="tagline" id="random" onclick="
   document.getElementById('random').innerHTML = nextWord();
-">[Insert Tagline Here]</p>
+" tabindex="0">[Insert Tagline Here]</p>
              </div>
              
         <div class="grid-half"><img class="circle home-profile float-center" src="images/2015-nsimson-headshot-mono-600.jpg" alt="portrait of Nick" /></div>
