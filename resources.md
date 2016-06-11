@@ -1,22 +1,17 @@
 ---
-layout: page
+layout: page-breadcrumb-info
 title: Resources
 permalink: /info/resources/
 published: true
 ---
 
-<nav role="navigation" class="breadcrumb-nav" id="top">
-     <a href="../">Information</a> > Resources
-</nav><!--/.breadcrumb-nav-->
-
-
-#A growing collection of helpful resources
+# A growing collection of helpful resources
 
 What I love most about designing for the web is the collaborative nature of the medium. There are many starting points to web design, ranging from the absurdly simple to the dizzingly complex.
 
 I'm planning to use this space to highlight my favorite tools and curate sources of information that have helped me out.
 
-##Tech Powering This Site
+## Tech Powering This Site
 * [Github Pages](https://pages.github.com/) and [Jekyll](http://jekyllrb.com/)
 * Barry Clark's [JekyllNow](https://github.com/barryclark/jekyll-now) theme and [tutorial](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) helped me get this site off the ground
 * Taylor Jones' [guide to Jekyll Collections](http://www.sitepoint.com/getting-started-jekyll-collections/) was also extremely useful

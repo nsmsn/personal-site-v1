@@ -8,8 +8,10 @@
 abbr[title],
 dfn[title] {
     color: $gray04;
-    border-bottom: 8px solid #effd5f;
     cursor: help;
+    text-decoration-line: unset;
+    border-bottom: 1px dashed $gray03;
+    
 }
 
 a,u,ins{
@@ -22,10 +24,17 @@ ins{
 
 }
 
+pre {
+    display: block;
+    background-color: $gray01;
+    padding: .5em;
+}
+
 samp {
     background-color: $gray01;
     padding: 0.25em;
     opacity: .8;
+    display: block
 }
 
 mark {

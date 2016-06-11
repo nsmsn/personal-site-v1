@@ -10,9 +10,11 @@ layout: default
     color: #{{ page.accent }};}
 </style>
 
-<div id="main" role="main" class="main-container primary">
-<article class="post">
-  
+<div role="main" class="main-container primary">
+      <nav role="navigation" class="breadcrumb-nav" id="top">
+     <a href="/blog/">Blog</a> > {{ page.title }}
+</nav><!--/.breadcrumb-nav-->    
+<article class="post" id="main">
   <h1>{{ page.title }}</h1>
   <div class="date">
     Published on {{ page.date | date: "%B %e, %Y" }}

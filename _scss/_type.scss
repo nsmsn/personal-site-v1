@@ -64,18 +64,19 @@ h1 {
 }
 
 h2 {
-  font-family: $chap;    
+  font-family: $chap;
   font-size: 1.625em;
   line-height: 1.15384615em;
 }
 
 h3 {
-  font-family: $league; 
+  font-family: $league;    
   font-size: 1.375em;
   line-height: 1.13636364em;
 }
 
-h4 {  
+h4 {
+  font-family: $league;     
   font-size: 1.25em;
   line-height: 1.11111111em;
 }
@@ -86,7 +87,7 @@ h5 {
 }
 
 h6 {
-	color: $gray03;
+	color: $gray04;
 	text-transform: uppercase;
 	font-size: 16px;
 }

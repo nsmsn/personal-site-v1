@@ -112,7 +112,7 @@ input[type="button"].button-block {
 // ------ HTML 'kbd' element ------
 kbd {
 	color: $white;
-	font-family: Futura, "Century Gothic", CenturyGothic, AppleGothic, "Trebuchet MS", Arial, sans-serif;
+	font-family: $sans;
 	font-size: 87.5%;
 	line-height: 90%;
 	background-color: $charcoal;

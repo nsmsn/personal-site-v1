@@ -6,22 +6,26 @@
 .main-container {
   margin: 0 auto;
   max-width: $container-max-width;
-  padding: 0 10px;
+  padding: 0 1em;
+  margin-bottom: 2em; 
+  margin-bottom: 5vh;    
   width: $container-width;
   flex: 1 0 auto; /* 2 */
   padding: var(--space) var(--space) 0;
-    
+      
 }
 
 .breadcrumb-nav {
 	float: none;
 	font-size: 15px;
 	margin-top: 9px;
+    font-family: $sans;
 
 	> a {
 		margin-left: 0px;
 		margin-right: 0px;
         text-transform: uppercase;
+        text-decoration: underline;
 
 		@include mobile {
      margin-left: 0px;

@@ -4,11 +4,12 @@
 // 
 
 .wrapper-footer {
-  margin-top: 75px;
   font-size: 0.875em;
-  color: $gray04;
-  border-top: 1px dashed $gray02;
-  background-color: $pure-white;
+  color: $gray05;
+  background: #ececec;    
+  background: rgba(0,0,0,.075);
+  z-index: 9000;   
+    
   flex: 1 0 auto;    
     
 
@@ -20,7 +21,9 @@
 
 footer {
   padding: 20px 0;
-  flex: none;    
+  flex: none;
+  font-family: $sans;
+  font-size: 15px;    
 }
 
 footer a {
@@ -36,7 +39,7 @@ footer a:hover {
 }
 
 .footer-icons a{
-    color: $gray03;
+    color: $gray04;
 }
 
 .footer-icons a:hover{
