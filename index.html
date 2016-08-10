@@ -10,9 +10,8 @@ summary: Nick Simson is a communication designer, occasional blogger, and newly 
 
 <style type="text/css">
     
-html, body {
-        background-color: #565656;
-        color: #FFF;
+    html, body{
+        background-color: #CCCDD1;
     }
     
     .monogram {
@@ -20,34 +19,22 @@ html, body {
     }    
 
 div.hero{
-    background-color: #282833;
-    padding-bottom: 4px;
-    border-bottom: 2px solid #222233;
-    color: #eee;
+    background-color: #{{ post.accent }};
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }        
 
     
-  hr {
-  border: 3px solid #53555F;
-  background-color: #53555F;
+  hr {      
+  border: 3px solid #72727E;
+  background-color: #72727E;
   max-width: 4em;      
   }
     
   .wrapper-masthead {
-  background-color: #282833;
-  border-top: 6px solid #{{ post.accent }};
-  padding-top: 1em;      
-    }
-    .site-name {
-        visibility: hidden;
-        border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
+  border-top: 6px solid #{{ post.accent }};      
     }
 
     .masthead nav a{
@@ -55,11 +42,11 @@ div.hero{
     }    
     
     .masthead nav a:hover, .masthead nav a:focus {
-        color: #CCCDD1;
+        color: #FF6633;
     }
     
     a:hover .monogram, .site-avatar .monogram:hover,  a:focus .monogram, .site-avatar .monogram:focus {
-        fill: #CCCDD1;
+        fill: #FF6633;
     }
     
   .profile {padding-bottom: 1.125em;}     
@@ -67,18 +54,33 @@ div.hero{
   a.box-color, a.box-color:hover, .box-color h6, a.blog-promo h6, h3 {
     color: #fff;}
     
-a.box:hover .date {background-color: #A3A4AC; color: #111;}  
+a.box:hover .date {background-color: #FF6633; color: #111;}  
     
-  h3 { text-transform: uppercase;}    
+  h3 { text-transform: uppercase; color: #4B4B71;}    
     
             
-  .date { float: right; background-color: #565656; color: #fff; font-size: 16px; padding: .4em .6em; text-transform: none !important;}   
+  .date { float: right; background-color: #A3A4AC; color: #111; font-size: 16px; padding: .4em .6em; text-transform: none !important;}   
     
-.hero h1 {padding-top: 5%; color: #ddd; text-align: center; margin: 0 auto;}     
+.hero h1 { 
+    color: #eff; 
+    margin: 5% auto;
+    margin: 15vh auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    }     
     
-    #random {color: #{{ post.accent }};}
+    .random {
+        color: #fff;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-style: italic;
+    }
     
-    #random:hover {cursor: pointer; color: #CCCDD1; }
+    .random:hover {
+        cursor: pointer; 
+        color: #FF6633;
+        background-color: #000;}
     
     .wrapper-footer {    
   background: rgba(255,255,255,.75);
@@ -89,33 +91,11 @@ a.box:hover .date {background-color: #A3A4AC; color: #111;}
 
 <div class="hero">
     <div class="container">
-         <div class="row">
-        <div class="grid-half">
+
             
-           <script type="text/javascript">
-var nextWord = (function() {
-var wordArray = ['A generalist in the area of&nbsp;specialism', 'Graphic Designer Emeritus', 'Designing things for screens&nbsp;(mostly), paper&nbsp;(occasionally), and humans&nbsp;(always).', 'I&rsquo;m glad you&rsquo;re here.', 'Established 1987', 'Good Design for Great&nbsp;People', 'America&rsquo;s Favorite Uncle', 'Bring in the&nbsp;Signal',  'Define &amp;&nbsp;Refine&trade;', 'Your Friendly Neighborhood Communication&nbsp;Designer',  'Mr. Simson&rsquo;s wardrobe furnished by&nbsp;COSTCO', 'Non-Breaking Space&amp;nbsp;Invader', 'Over 1 Dozen Taglines&nbsp;Served' ];
-  var copy;
-  return function() {
-    if (!copy || !copy.length) copy = wordArray.slice();
-    return copy.splice(Math.random() * copy.length | 0, 1);
-  }
-}());
+        <h1>I design things for <i class="fa fa-tablet" aria-hidden="true"></i>&nbsp;screens (mostly), <i class="fa fa-file-text" aria-hidden="true"></i>&nbsp;paper (occasionally), and <i class="fa fa-universal-access" aria-hidden="true"></i>&nbsp;humans (always).</h1>
 
-</script>
-      
-      <h1><span class="home-intro">You&rsquo;ve reached the personal website&nbsp;of</span>
-            <span class="home-name-plate">Nick Simson</span></h1>
-            <hr/>
-      <p class="tagline" id="random" onclick="
-  document.getElementById('random').innerHTML = nextWord();
-" tabindex="0">[Insert Tagline Here]</p>
              </div>
-             
-        <div class="grid-half"><img class="circle home-profile float-center" src="images/2015-nsimson-headshot-mono-600.jpg" alt="portrait of Nick" /></div>
-    </div>
-    </div>
-
 </div>
 
 
@@ -125,9 +105,9 @@ var wordArray = ['A generalist in the area of&nbsp;specialism', 'Graphic Designe
     
               
           <a class="box gutterless front-button box-color tap border-top" href="/work/"><i class="fa fa-briefcase fa-lg"></i> &nbsp; Portfolio</a>
-          <div class="box gutterless box-white">
+          <div class="box gutterless box-white ">
           <h6>Capabilities</h6>
-              <small>Branding, visual identity, naming, front-end web development, content strategy, wireframes and prototypes, publication design, illustration.</small>
+              <small>Branding, visual identity, naming, front-end web development, content strategy, publication design, illustration.</small>
           </div>
           
       </div>
@@ -148,11 +128,11 @@ var wordArray = ['A generalist in the area of&nbsp;specialism', 'Graphic Designe
       
       <div class="grid-third"><h3 class="centered">Info</h3>
       
-          <a class="box box-white gutterless front-button tap border-top" href="/info/">&nbsp;<i class="fa fa-bolt fa-lg"></i> &nbsp; Biography</a>
+          <a class="box box-white gutterless front-button tap border-top" href="/info/">&nbsp;<i class="fa fa-bolt fa-lg"></i> &nbsp; Profile</a>
           
           <a class="box gutterless box-color front-button tap" href="/info/#contact"><i class="fa fa-envelope"></i> &nbsp; Contact Me</a>
           
-          <a class="box box-white gutterless front-button tap" href="/info/resources/"><i class="fa fa-link"></i> &nbsp; Resources</a>
+          <a class="box box-white  gutterless front-button tap" href="/info/resources/"><i class="fa fa-link"></i> &nbsp; Resources</a>
           
           <a class="box box-white gutterless front-button tap" href="/info/style-guide/"><i class="fa fa-code"></i> &nbsp; Style Guide</a>
           

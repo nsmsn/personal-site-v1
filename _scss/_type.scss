@@ -144,7 +144,6 @@ strong, b {
     border-left: 3px solid $gray01;
     padding: 0 1em;
     color: $gray04;
-    font-size: 1.375em;
     font-style: italic;
   }
 
@@ -178,5 +177,7 @@ ul.list-unstyled {
 }
 
 small {
-    font-size: 0.875em;
+    font-family: $sans;
+    font-size: 0.75em;
+    line-height: .9;
 }
