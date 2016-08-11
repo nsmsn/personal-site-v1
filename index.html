@@ -62,13 +62,18 @@ a.box:hover .date {background-color: #FF6633; color: #111;}
   .date { float: right; background-color: #A3A4AC; color: #111; font-size: 16px; padding: .4em .6em; text-transform: none !important;}   
     
 .hero h1 { 
-    color: #eff; 
+    color: #efefef; 
     margin: 5% auto;
     margin: 15vh auto;
     text-align: center;
     font-style: italic;
     font-weight: 300;
-    }     
+    line-height: 1.325;
+    }
+    
+    .no-wrap {
+        white-space: nowrap;
+    }
     
     .random {
         color: #fff;
@@ -93,7 +98,7 @@ a.box:hover .date {background-color: #FF6633; color: #111;}
     <div class="container">
 
             
-        <h1>I design things for <i class="fa fa-tablet" aria-hidden="true"></i>&nbsp;screens (mostly), <i class="fa fa-file-text" aria-hidden="true"></i>&nbsp;paper (occasionally), and <i class="fa fa-universal-access" aria-hidden="true"></i>&nbsp;humans (always).</h1>
+        <h1>I design things for <span class="no-wrap"><i class="fa fa-tablet" aria-hidden="true"></i>&nbsp;screens (mostly),</span> <span class="no-wrap"><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp;paper (occasionally),</span> and <span class="no-wrap"><i class="fa fa-universal-access" aria-hidden="true"></i>&nbsp;humans (always).</span></h1>
 
              </div>
 </div>
