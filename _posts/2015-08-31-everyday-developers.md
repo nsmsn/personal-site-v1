@@ -27,7 +27,7 @@ In between these two, you have what Jen and Rachel would call "everyday develope
 
 A few highlights from the episode:
 
-###On documentation
+### On documentation
 
 Writing documentation on your open-source project is doing good work:
 
@@ -42,7 +42,7 @@ Interoperability in open source web projects is a nice ideal to aim for, when it
 
 I also appreciate the direction the [Roots](http://roots.io) team is taking with their open source WordPress projects. The next version of their starter theme will be shipped without Bootstrap, and require fewer dependencies, so you can install your preferred front-end boilerplate (or create your own). Similarly, their development and deployment packages aren't dependent on installing their starter theme or set of&nbsp;plugins.
 
-###On the right tools for the right people
+### On the right tools for the right people
 
 While Javascript frameworks and build processes have gotten a ton of attention, the bread and butter for a lot of everyday developers is still the content management system&mdash;customizing them, theming them, training clients and authors on how to use them. Once your work is done, what do your clients&nbsp;inherit?
 
@@ -58,7 +58,7 @@ I did this myself recently. I still think self-hosted WordPress is great, but so
 
 There's also been an explosion of many new, next-generation CMS products out there that aren’t Wordpress or Drupal clones. Craft, Siteleaf, and Cloud Cannon all look very promising for everyday users and everyday developers&nbsp;alike.
 
-###On teaching, training, learning
+### On teaching, training, learning
 
 Both Jen and Rachel work on complex projects, lead workshops, and deliver talks on this stuff, yet admit that if they were starting out in their careers tomorrow, it would be a bit overwhelming to know where to start. Their audience at these worskshotps and events is largely made up of everyday developers, and I'm sure they are getting this feedback, as its a sentiment I hear expressed all the&nbsp;time.
 
@@ -76,7 +76,7 @@ Rachel wrote a great [follow-up post](https://rachelandrew.co.uk/archives/2015/0
 
 More good news: The web is very forgiving. What you build today will work for years&mdash;even as browsers automatically update and hardware gets replaced&mdash;providing you are doing these core things right. I love coming across a website that was last updated in 2005 or earlier. A couple links may be broken and the design may not reflect the current trends or resolutions, but its somewhat reassuring that not everything is as ephemeral as it&nbsp;seems.
 
-####Further reading
+#### Further reading
 * Chris Ferdinandi, [Kraken, Sass, and Open Source](http://gomakethings.com/kraken-sass-and-open-source/)
 * Aaron Gustafson, ['A Fundamental Disconnect'](http://www.aaron-gustafson.com/notebook/a-fundamental-disconnect/)
 * Jeremy Keith, ['The Format of the Long Now'](https://adactio.com/journal/1665)

@@ -66,7 +66,7 @@ This memo may not affect me as much as it could other users. I think I was able 
 
 In January, [IE 11 will be the minimum supported version](https://blogs.windows.com/msedgedev/2015/08/26/how-microsoft-edge-and-internet-explorer-11-on-windows-10-work-better-together-in-the-enterprise/) to receive security and technical support on Windows 7 and 8.1. When enterprise technology is pushed to upgrade their browser support to IE 11 and Edge, why not extend it to the rest of the web as well?
 
-####Related Reading/Listening/Viewing
+#### Related Reading/Listening/Viewing
 * Eric Meyer, ["This Web App Best Viewed by Someone Else"](https://www.youtube.com/watch?v=r38al1w-h4k) (2015 conference talk video about the inverse of this problem).
 * Jen Simmons, The Web Ahead Ep. 94, ['Rethinking Microsoft's Browser with Rey Bango'](http://thewebahead.net/94) (podcast discussion about Project Spartan/Microsoft Edge and supporting legacy features for Enterprise).
 * Michael Endler/<em>InformationWeek</em>, [Microsoft Dumps Support For Old IE Versions](http://www.informationweek.com/software/enterprise-applications/microsoft-dumps-support-for-old-ie-versions/d/d-id/1297896), published August 2014.

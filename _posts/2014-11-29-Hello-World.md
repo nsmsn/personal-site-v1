@@ -12,7 +12,7 @@ Hello, world.
 
 What should a web designer's personal website look like in 2014? That's a good question, and one I'm still wrestling over. I had a big 'coming soon' splash page up here for several more months than I originally planned, and have had a lot of time to think about this. I haven't figured it all out yet, but have been itching to write about some other stuff (more on that later). Here are some thoughts:
 
-###A place to try stuff out
+### A place to try stuff out
 A portfolio is really important if you're trying to get hired. At the moment, I'm steadily employed, so I'm treating mine as sort of a "Greatest Hits" section. 
 
 I don't fancy myself a professional writer, but I use it as a way to organize my thoughts and communicate ideas to others. Having some kind of blog is helpful for others to find you, and figure out what you're about. I am not going to make any kind of promises about the frequency, length, or format of my posts, but I will make a few things clear:
@@ -28,14 +28,14 @@ Finally, I am planning to play and experiment with the design and code of this s
 The flexibility of the templating software (Jekyll and Liquid) will allow for little one-off designs and side projects to be hosted from this main domain. As a designer, nearly all the code I write is simple HTML, CSS and Javascript, and this approach frees me from having to worry or check up on databases and server-side stuff. If you are interested in how this site is put together, I am curating a [resources page](/info/resources/) with more information about the tech and tools I am using. 
 
 
-###Audience
+### Audience
 Who reads these things? I thought about my interests and topics and narrowed it down to three groups of people:
 
 1. Anyone involved in the creation of web content, software, or design. Content strategists, developers, fellow designers and people who work with these sorts of people on a regular basis.
 2. People who are interested in learning about design, specializing, or working with a designer for the first time. I've been at this for almost ten years now, which feels like a long time, but in many ways I still feel like I'm just getting started.
 3. People who already know me---Colleagues, friends, and family (Hi mom!)---and are interested in what I'm up to.
 
-###Content
+### Content
 I've drafted or am in the process of writing several blog posts to be published after this one. Before I started designing this site, I brainstormed a list of 20 titles for the blog posts I want to write. Some are informational. Some are satirical. A few are in need of a professional editor. Here are the ones I'm most excited about:
 
    * Chasing imperfectionism
