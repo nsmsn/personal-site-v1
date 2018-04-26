@@ -1,13 +1,12 @@
 ---
-layout: post
 title: The browser wars are over. Please notify the enterprise.
-permalink: /notify-the-enterprise/
-
+date: 2015-09-05 00:00:00 Z
+permalink: "/notify-the-enterprise/"
+layout: post
 summary: I shouldn't have to install a virtual machine to sign up for insurance.
-published: true
-
 accent: 00A2EB
 ---
+
 <figure>
 <img src="/images/post-images/2015-09-05-enrollment.jpg" alt="Important information about recommended browsers for annual enrollment memo" />
 <figcaption>It gets worse.</figcaption>

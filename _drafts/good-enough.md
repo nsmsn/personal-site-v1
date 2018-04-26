@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Good enough for government&nbsp;work
+date: 2015-10-04 00:00:00 Z
 permalink: "/good-enough-for-government-work/"
+layout: post
 summary: Thoughts on service design, loosely tied together
-published: true
 accent: 66cc99
 ---
 

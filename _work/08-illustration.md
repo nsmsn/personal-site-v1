@@ -1,20 +1,17 @@
 ---
-
-title: "Misc. Illustration"
+title: Misc. Illustration
+permalink: "/work/illustration/"
+categories:
+- identity
+- web
+- packaging
 thumbnail-path: "/images/work/th-illo.png"
 preview-path: "/images/work/thumb-illo.png"
 feature-path: "/images/work/blank.png"
-
-short-description: "Digital illustration portfolio"
-permalink: /work/illustration/
-
-
+short-description: Digital illustration portfolio
 layout: portfolio-item
-category: [identity, web, packaging]
-
 background: 3D3934
 accent: F15A29
-
 ---
 
 <p class="lede">A small collection of commissioned and self-directed illustration and iconography from the past few&nbsp;years.</p>

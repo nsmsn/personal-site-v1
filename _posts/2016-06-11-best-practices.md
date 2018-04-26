@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Many Best Practices
+date: 2016-06-11 00:00:00 Z
 permalink: "/many-best-practices/"
+layout: post
 summary: There's more than one way to skin a website.
-published: true
 accent: EF5350
 ---
 

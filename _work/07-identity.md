@@ -1,19 +1,15 @@
 ---
-
-title: "Misc. Identity"
+title: Misc. Identity
+permalink: "/work/id/"
+categories:
+- identity
 thumbnail-path: "/images/work/th-id.png"
 preview-path: "/images/work/thumb-id.png"
 feature-path: "/images/work/blank.png"
-
-short-description: "Logos and Wordmark"
-permalink: /work/id/
-
+short-description: Logos and Wordmark
 layout: portfolio-item
-category: [identity]
-
 background: 3d3934
 accent: 0000ff
-
 ---
 
 <p class="lede">A small collection of logos and branding/identity work I&rsquo;ve done over the past few&nbsp;years.</p>

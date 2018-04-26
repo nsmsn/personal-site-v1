@@ -1,12 +1,9 @@
 ---
-layout: page
 title: Information
-permalink: /info/
-published: true
+permalink: "/info/"
+layout: page
 background: fff8eb
 ---
-
-
 
 <h1>Information</h1>
 

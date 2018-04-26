@@ -1,8 +1,9 @@
 ---
-layout: post
 title: JavaScript is not your interface.
-summary: It&rsquo;s just one powerful layer that can do some incredible things on an already solid HTML&nbsp;foundation.
-
+date: 2016-09-10 00:00:00 Z
+layout: post
+summary: It&rsquo;s just one powerful layer that can do some incredible things on
+  an already solid HTML&nbsp;foundation.
 accent: 006B73
 ---
 

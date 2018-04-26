@@ -1,9 +1,9 @@
 ---
-layout: post
 title: This. Archive
+date: 2016-08-10 00:00:00 Z
 permalink: "/rip-this/"
+layout: post
 summary: This. is done. Here's all the stuff I shared while it was alive.
-published: true
 accent: 61534b
 ---
 

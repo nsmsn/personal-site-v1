@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Deploy
+date: 2014-11-29 00:00:00 Z
+layout: post
 summary: An obligatory first blog&nbsp;post
-
 accent: 146AFF
 ---
 

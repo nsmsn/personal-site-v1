@@ -1,11 +1,9 @@
 ---
-layout: page
 title: Short page
-permalink: /short/
-published: true
+permalink: "/short/"
+layout: page
 background: fff8eb
 ---
-
 
 #This is only a test
 

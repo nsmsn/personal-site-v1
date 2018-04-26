@@ -1,19 +1,16 @@
 ---
-
-title: "Travel Policy Video"
+title: Travel Policy Video
+permalink: "/work/travel-money/"
+categories:
+- character design
+- illustration
 thumbnail-path: "/images/work/th-travel.png"
 preview-path: "/images/work/thumb-travel.png"
 feature-path: "/images/work/feature-travel-money.png"
-
-short-description: "Illustration and character design"
-permalink: /work/travel-money/
-
+short-description: Illustration and character design
 layout: portfolio-item
-category: [character design, illustration]
-
 background: 5B7076
 accent: 5B7076
-
 ---
 
 <div class="row">

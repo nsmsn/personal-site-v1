@@ -1,21 +1,15 @@
 ---
-
-title: "St. James Knoxville"
+title: St. James Knoxville
+permalink: "/work/stjamesknox/"
+categories:
+- branding
 thumbnail-path: "/images/work/th-sjk.png"
 preview-path: "/images/work/thumb-sjk.jpg"
 feature-path: "/images/work/feature-sjk.png"
-
-
-short-description: "Identity design for an Episcopal congregation"
-permalink: /work/stjamesknox/
-
+short-description: Identity design for an Episcopal congregation
 layout: portfolio-item
-category: [branding]
-
 background: bf0a0d
 accent: 4C0F2A
-
-
 ---
 
 <div class="row">

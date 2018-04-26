@@ -1,20 +1,17 @@
 ---
-
-title: "The Tumbleweeds"
+title: The Tumbleweeds
+permalink: "/work/tumbleweeds/"
+categories:
+- identity
+- web
+- packaging
 thumbnail-path: "/images/work/th-tw.png"
 preview-path: "/images/work/thumb-tw.jpg"
 feature-path: "/images/work/feature-tw.jpg"
-
-short-description: "Total design for Albuquerque's best dance band"
-permalink: /work/tumbleweeds/
-
-
+short-description: Total design for Albuquerque's best dance band
 layout: portfolio-item
-category: [identity, web, packaging]
-
 background: eb9526
 accent: e3462f
-
 ---
 
 <div class="row">

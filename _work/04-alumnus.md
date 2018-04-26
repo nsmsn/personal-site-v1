@@ -1,21 +1,17 @@
 ---
-
-title: "Tennessee Alumnus"
+title: Tennessee Alumnus
+permalink: "/work/alumnus/"
+categories:
+- illustration
+- editorial
 thumbnail-path: "/images/work/th-alumnus.png"
 preview-path: "/images/work/thumb-alumnus.jpg"
 feature-path: "/images/work/feature-alumnus.jpg"
-
-short-description: "Future of Higher Education Issue"
-permalink: /work/alumnus/
-
+short-description: Future of Higher Education Issue
 layout: portfolio-item
-category: [illustration, editorial]
-
 background: 403f4e
 accent: f77f00
-
 ---
-
 
 <div class="row">
         <div class="grid-half grid-flip portfolio-detail-box gutterless"><h5>Details</h5>

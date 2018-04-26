@@ -1,8 +1,7 @@
 ---
-layout: page-breadcrumb-info
 title: Resources
-permalink: /info/resources/
-published: true
+permalink: "/info/resources/"
+layout: page-breadcrumb-info
 ---
 
 # A growing collection of helpful resources

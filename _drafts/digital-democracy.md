@@ -1,12 +1,10 @@
 ---
+title: Social, as in “studies”
+date: 2015-09-06 00:00:00 Z
+permalink: "/digital-democracy/"
 layout: post
-title: Social, as in “studies” 
-permalink: /digital-democracy/
-
-summary: Two recent books examine the social implications of a digitally mediated world.
-
-published: false
-
+summary: Two recent books examine the social implications of a digitally mediated
+  world.
 accent: 329699
 ---
 

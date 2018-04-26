@@ -1,20 +1,16 @@
 ---
-
-title: "Eleanor Aldrich"
+title: Eleanor Aldrich
+permalink: "/work/eleanor-aldrich/"
+categories:
+- web design
+- branding
 thumbnail-path: "/images/work/th-ealdrich.png"
 preview-path: "/images/work/thumb-ealdrich.jpg"
 feature-path: "/images/work/feature-ealdrich.jpg"
-
-short-description: "Artist Web Portfolio"
-
-permalink: /work/eleanor-aldrich/
-
+short-description: Artist Web Portfolio
 layout: portfolio-item
-category: [web design, branding]
-
 background: d4af00
 accent: 9A7415
-
 ---
 
 <div class="row">

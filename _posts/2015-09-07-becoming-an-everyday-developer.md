@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Becoming an everyday developer
+date: 2015-09-07 00:00:00 Z
 permalink: "/becoming-an-everyday-developer/"
-summary: "What to learn, how to learn it, and what to learn next."
-published: true
+layout: post
+summary: What to learn, how to learn it, and what to learn next.
 accent: 694486
 ---
-
 
 A week ago [I shared a few highlights and my impressions](http://nicksimson.com/everyday-developers/) from a recent Web Ahead discussion about "everyday developers". I made the point that web development is not a monolith: There are a lot of different kinds of websites, there are a ton of different tools and ways to deploy a site, and noone should be expected to know everything.
 
