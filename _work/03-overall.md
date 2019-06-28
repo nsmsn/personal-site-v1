@@ -17,7 +17,7 @@ accent: 3e9971
 <ul class="list-unstyled">
 <li><i class="fa fa-eye"></i> Identity design</li>
 <li><i class="fa fa-file-code-o"></i> Website Design</li>
-<li><a class="button button-large button-white" href="http://jasonoverall.com">Visit Site &rarr;</a></li>
+<li><a class="button button-large button-white" href="http://www.jasonoverall.com/home">Visit Site &rarr;</a></li>
 </ul>
 </div>
 
