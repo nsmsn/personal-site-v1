@@ -76,7 +76,7 @@ After our first meeting I structured the web content into Squarespace's "base" D
 </div>
 
 <div class="row">
-    <div class="grid-third float-center"><a class="button button-large button-white" href="http://jasonoverall.com">Visit JasonOverall.com &rarr;</a></div>
+    <div class="grid-third float-center"><a class="button button-large button-white" href="http://www.jasonoverall.com/home">Visit JasonOverall.com &rarr;</a></div>
 </div>
 
 
